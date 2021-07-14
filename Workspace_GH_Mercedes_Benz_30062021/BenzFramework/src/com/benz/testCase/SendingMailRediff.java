@@ -91,7 +91,7 @@ public class SendingMailRediff extends BaseSettings{
 		
 		//Assert  by the text "Username"
 		//u.AssertText("Username", "xpath", "//p[text() = 'Username']", "for the text Username");
-		u.AssertText("Username", "xpath", "assertText_xpath_UsernameEditBox", "for the text Username");
+		u.AssertText("Username", "xpath", "assertText_xpath_UsernameEditBox1", "for the text Username");
 		
 		
 		
@@ -104,7 +104,7 @@ public class SendingMailRediff extends BaseSettings{
 		//driver.findElement(By.xpath("//*[@id=\"login1\"]")).click();
 		//driver.findElement(By.xpath("//*[@id=\"login1\"]")).sendKeys(h.get("UName"));
 		//u.typeEditBox("xpath", "//*[@id='login1']", h.get("UName"));
-		u.typeEditBox("xpath", "typeUsername_xpath_UsernameEditBox", h.get("UName"));
+		u.typeEditBox("xpath", "typeUsername_xpath_UsernameEditBox1", h.get("UName"));
 		
 		u.stepWiseScreenshot("Type on username of  Rediff Login Page_"+h.get("Browser"));
 		
@@ -114,7 +114,7 @@ public class SendingMailRediff extends BaseSettings{
 		
 		//Assert  by the text "Password"
 		//u.AssertText("Password", "xpath", "//p[text() = 'Password']", "for the text Password");
-		u.AssertText("Password", "xpath", "assertText_xpath_PasswordEditBox", "for the text Password");
+		u.AssertText("Password", "xpath", "assertText_xpath_PasswordEditBox1", "for the text Password");
 		
 		//Logging for Extent Report - Which is a test step in Extent report
 		logger.log(Status.PASS, MarkupHelper.createLabel("Assertion for text in Password edit box - Password", ExtentColor.GREEN));
@@ -137,7 +137,7 @@ public class SendingMailRediff extends BaseSettings{
 		
 		//Assert by the attribute "name" whose value is "proceed"
 		//u.AssertAttributeValue("proceed", "xpath", "//input[@name = 'proceed']", "for the attribute name", "name");
-		u.AssertAttributeValue("proceed", "xpath", "assertAttributeValue_xpath_SignInButton", "for the attribute name", "name");
+		u.AssertAttributeValue("proceed", "xpath", "assertAttributeValue_xpath_SignInButton1", "for the attribute name", "name");
 		
 		
 		//Logging for Extent Report - Which is a test step in Extent report
@@ -146,7 +146,7 @@ public class SendingMailRediff extends BaseSettings{
 		
 		//Click on Sign In button
 		//driver.findElement(By.xpath("//input[@name = 'proceed']")).click();
-		u.clickButton("xpath", "clickSignIn_xpath_SignInButton");
+		u.clickButton("xpath", "clickSignIn_xpath_SignInButton1");
 		
 		u.stepWiseScreenshot("Click on sign in button  of  Rediff Login Page_"+h.get("Browser"));
 		
@@ -157,11 +157,11 @@ public class SendingMailRediff extends BaseSettings{
 		//Wait until the text "Write Mail " is present
 		//w.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//*[@id=\"boxscroll\"]/li[1]/a/b"), "Write mail"));
 		//u.explicitWaitText("xpath", "//*[@id='boxscroll']/li[1]/a/b", "Write mail");
-		u.explicitWaitText("xpath", "explicitWait_WriteMail_xpath", "Write mail");
+		u.explicitWaitText("xpath", "explicitWait_WriteMail_xpath1", "Write mail");
 		
 		//Assert  by the text "Write Mail"
 		//u.AssertText("Write mail", "xpath", "//*[@id='boxscroll']/li[1]/a/b", "for the text Write Mail");
-		u.AssertText("Write mail", "xpath", "assertText_xpath_WiteMailLink", "for the text Write Mail");
+		u.AssertText("Write mail", "xpath", "assertText_xpath_WiteMailLink1", "for the text Write Mail");
 		
 		
 		//Logging for Extent Report - Which is a test step in Extent report
@@ -170,8 +170,8 @@ public class SendingMailRediff extends BaseSettings{
 		
 		
 		//Click on Write Mail Link
-		driver.findElement(By.xpath("//*[@id=\"boxscroll\"]/li[1]/a")).click();
-		u.clickLink("xpath", "clickWriteMail_xpath_WriteMailLink");
+		//driver.findElement(By.xpath("//*[@id=\"boxscroll\"]/li[1]/a")).click();
+		u.clickLink("xpath", "clickWriteMail_xpath_WriteMailLink1");
 		
 		u.stepWiseScreenshot("Click  on Write mail of  Rediff Login Page_"+h.get("Browser"));
 		
@@ -200,7 +200,7 @@ public class SendingMailRediff extends BaseSettings{
 		//driver.findElement(By.xpath("//*[@id=\"TO_IDcmp2\"]")).sendKeys(h.get("TField"));
 		//driver.findElement(By.xpath("//*[@id=\"TO_IDcmp2\"]")).sendKeys(Keys.RETURN);
 		//u.typeEditBoxEmail("xpath", "//*[@id='TO_IDcmp2']", h.get("TField"));
-		u.typeEditBoxEmail("xpath", "typeTo_xpath_ToEditBox", h.get("TField"));
+		u.typeEditBoxEmail("xpath", "typeTo_xpath_ToEditBox1", h.get("TField"));
 		
 		
 		u.stepWiseScreenshot("Type on TO field  of  Rediff Login Page_"+h.get("Browser"));
@@ -212,7 +212,7 @@ public class SendingMailRediff extends BaseSettings{
 		
 		//Assert by text "Subject:"
 		//u.AssertText("Subject:", "xpath", "//label[text()='Subject:']", "for the text Subject:");
-		u.AssertText("Subject:", "xpath", "assertText_xpath_SubjectEditBox", "for the text Subject:");
+		u.AssertText("Subject:", "xpath", "assertText_xpath_SubjectEditBox1", "for the text Subject:");
 		
 		//Logging for Extent Report - Which is a test step in Extent report
 		logger.log(Status.PASS, MarkupHelper.createLabel("Assert for the text in SUBJECT edit box - Subject:", ExtentColor.GREEN));
@@ -222,7 +222,7 @@ public class SendingMailRediff extends BaseSettings{
 		//driver.findElement(By.xpath("//*[@id=\"rd_compose_cmp2\"]/ul/li[4]/input")).click();
 		//driver.findElement(By.xpath("//*[@id=\"rd_compose_cmp2\"]/ul/li[4]/input")).sendKeys(h.get("SField"));
 		//u.typeEditBox("xpath", "//*[@id='rd_compose_cmp2']/ul/li[4]/input", h.get("SField"));
-		u.typeEditBox("xpath", "typeSubject_xpath_SubjectEditBox", h.get("SField"));
+		u.typeEditBox("xpath", "typeSubject_xpath_SubjectEditBox1", h.get("SField"));
 		
 		u.stepWiseScreenshot("Type on SUBJECT field  of  Rediff Login Page_"+h.get("Browser"));
 		
@@ -234,13 +234,13 @@ public class SendingMailRediff extends BaseSettings{
 		//Switch to the frame
 		//wb = driver.findElement(By.cssSelector("#cke_1_contents > iframe"));
 		//driver.switchTo().frame(wb);
-		u.switchFrameWebElement("cssSelector", "switchFrameCompose_cssSelector_ComposeFrame");
+		u.switchFrameWebElement("cssSelector", "switchFrameCompose_cssSelector_ComposeFrame1");
 		
 		//Type on the COMPOSE edit box -parameterization point 6
 		//driver.findElement(By.xpath("/html/body")).click();
 		//driver.findElement(By.xpath("/html/body")).sendKeys(h.get("CField"));
 		//u.typeEditBox("xpath", "/html/body", h.get("CField"));
-		u.typeEditBox("xpath", "typeCompose_xpath_ComposeEditBox", h.get("CField"));
+		u.typeEditBox("xpath", "typeCompose_xpath_ComposeEditBox1", h.get("CField"));
 		
 		u.stepWiseScreenshot("Type on COMPOSE field  of  Rediff Login Page_"+h.get("Browser"));
 		
@@ -250,7 +250,7 @@ public class SendingMailRediff extends BaseSettings{
 		
 		//Assert by the text "Send"
 		//u.AssertText("Send", "xpath", "//a[text()='Send']", "for the text Send");
-		u.AssertText("Send", "xpath", "assertText_xpath_SendLink", "for the text Send");
+		u.AssertText("Send", "xpath", "assertText_xpath_SendLink1", "for the text Send");
 		
 		//Logging for Extent Report - Which is a test step in Extent report
 		logger.log(Status.PASS, MarkupHelper.createLabel("Assert for the text in SEND link - Send", ExtentColor.GREEN));
@@ -258,7 +258,7 @@ public class SendingMailRediff extends BaseSettings{
 		
 		//Click on SEND Link
 		//driver.findElement(By.xpath("//*[@id=\"rd_compose_cmp2\"]/div[1]/a[1]")).click();
-		u.clickLink("xpath", "clickSend_xpath_SendLink");
+		u.clickLink("xpath", "clickSend_xpath_SendLink1");
 		
 		u.stepWiseScreenshot("Click  on Send button of  Rediff Login Page_"+h.get("Browser"));
 		
@@ -269,18 +269,18 @@ public class SendingMailRediff extends BaseSettings{
 		//Wait for the text "Your mail is sent"
 		//w.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//*[@id=\"rdNotify\"]"), "Your mail has been sent"));
 		//u.explicitWaitText("xpath", "//*[@id='rdNotify']", "Your mail has been sent");
-		u.explicitWaitText("xpath", "explicitWait_YourMailIsSentNotification_xpath", "Your mail has been sent");
+		u.explicitWaitText("xpath", "explicitWait_YourMailIsSentNotification_xpath1", "Your mail has been sent");
 		
 		
 		//Wait until the text LOGOUT is present
 		//w.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//a[text() = 'Logout']"), "Logout"));
 		//u.explicitWaitText("xpath", "//a[text() = 'Logout']", "Logout");
-		u.explicitWaitText("xpath", "explicitWait_LogoutText_xpath", "Logout");
+		u.explicitWaitText("xpath", "explicitWait_LogoutText_xpath1", "Logout");
 		
 		
 		//Assert by the text "Logout"
 		//u.AssertText("Logout", "xpath", "//a[text() = 'Logout']", "for the text Logout");
-		u.AssertText("Logout", "xpath", "assertText_xpath_LogoutLink", "for the text Logout");
+		u.AssertText("Logout", "xpath", "assertText_xpath_LogoutLink1", "for the text Logout");
 				
 		//Logging for Extent Report - Which is a test step in Extent report
 		logger.log(Status.PASS, MarkupHelper.createLabel("Assert for the text in LOGOUT link - Send", ExtentColor.GREEN));
@@ -288,7 +288,7 @@ public class SendingMailRediff extends BaseSettings{
 		
 		//Click on Logout link
 		//driver.findElement(By.xpath("//a[text() = 'Logout']")).click();
-		u.clickLink("xpath", "clickLogout_xpath_LogoutLink");
+		u.clickLink("xpath", "clickLogout_xpath_LogoutLink1");
 		
 		u.stepWiseScreenshot("Click  on Logout link of  Rediff Login Page_"+h.get("Browser"));
 		

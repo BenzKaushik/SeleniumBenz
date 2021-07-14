@@ -227,7 +227,7 @@ public class formRediffmail extends BaseSettings{
 			//driver.findElement(By.xpath("//*[@id=\"tblcrtac\"]/tbody/tr[9]/td[3]/input")).sendKeys(pwd);
 			//driver.findElement(By.xpath("//*[@id=\"tblcrtac\"]/tbody/tr[9]/td[3]/input")).sendKeys(h.get("Pwd"));
 			//u.typeEditBox("xpath", "//*[@id='tblcrtac']/tbody/tr[9]/td[3]/input", h.get("Pwd"));
-			u.typeEditBox("xpath", "typePassword_xpath_PasswordEditBox", h.get("Pwd"));
+			u.typeEditBox("xpath", "typePassword_xpath_PasswordEditBox1", h.get("Pwd"));
 			
 			
 			//StepWise Screenshot 
