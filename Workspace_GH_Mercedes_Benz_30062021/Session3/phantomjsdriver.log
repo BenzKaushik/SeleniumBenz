@@ -1,0 +1,135 @@
+[INFO  - 2021-07-01T10:44:57.259Z] GhostDriver - Main - running on port 29386
+[INFO  - 2021-07-01T10:44:57.596Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-07-01T10:44:57.596Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - page.customHeaders:  - {}
+[INFO  - 2021-07-01T10:44:57.596Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-07-01T10:44:57.596Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 60ccc870-da59-11eb-987a-21daa9fc9167
+[ERROR - 2021-07-01T10:44:59.344Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-07-01T10:44:59.344Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - page.onError - stack:
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/performance.bundle.js:1)
+[ERROR - 2021-07-01T10:45:00.077Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-07-01T10:45:00.077Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - page.onError - stack:
+  5712f1b9446531a0f3b8 (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  63f14ac74ce296f77f4d (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  2c620f2e3a281f750097 (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  execCb (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  enable (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  init (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  a (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  completeLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  onScriptLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+[ERROR - 2021-07-01T10:45:00.381Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.addSmpPlugin')
+[ERROR - 2021-07-01T10:45:00.381Z] Session [60ccc870-da59-11eb-987a-21daa9fc9167] - page.onError - stack:
+  (anonymous function) (https://gn-web-assets.api.bbc.com/wwhp/20210621-1346-9144af9173f4d0c427a321d53978bb7d2ed2652e/modules/compiled.js:1)
+  (anonymous function) (:0)
+  execCb (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  each (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  emit (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  enable (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  init (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  a (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  completeLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  onScriptLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+[INFO  - 2021-07-01T10:45:01.664Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2021-07-01T10:46:35.039Z] GhostDriver - Main - running on port 37820
+[INFO  - 2021-07-01T10:46:35.418Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-07-01T10:46:35.418Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - page.customHeaders:  - {}
+[INFO  - 2021-07-01T10:46:35.418Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-07-01T10:46:35.418Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9b1b3c50-da59-11eb-9e2c-b92621bdb259
+[ERROR - 2021-07-01T10:46:37.300Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-07-01T10:46:37.300Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - page.onError - stack:
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/performance.bundle.js:1)
+[ERROR - 2021-07-01T10:46:38.030Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-07-01T10:46:38.030Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - page.onError - stack:
+  5712f1b9446531a0f3b8 (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  63f14ac74ce296f77f4d (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  2c620f2e3a281f750097 (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  execCb (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  enable (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  init (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  a (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  completeLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  onScriptLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+[ERROR - 2021-07-01T10:46:38.156Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.addSmpPlugin')
+[ERROR - 2021-07-01T10:46:38.156Z] Session [9b1b3c50-da59-11eb-9e2c-b92621bdb259] - page.onError - stack:
+  (anonymous function) (https://gn-web-assets.api.bbc.com/wwhp/20210621-1346-9144af9173f4d0c427a321d53978bb7d2ed2652e/modules/compiled.js:1)
+  (anonymous function) (:0)
+  execCb (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  each (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  emit (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  enable (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  init (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  a (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  completeLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  onScriptLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+[INFO  - 2021-07-01T10:46:39.778Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2021-07-01T10:50:54.612Z] GhostDriver - Main - running on port 16786
+[INFO  - 2021-07-01T10:50:54.991Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-07-01T10:50:54.991Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - page.customHeaders:  - {}
+[INFO  - 2021-07-01T10:50:54.992Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-07-01T10:50:54.992Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 35d2eea0-da5a-11eb-beb8-0f24c2aea653
+[ERROR - 2021-07-01T10:50:56.881Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-07-01T10:50:56.881Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - page.onError - stack:
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/performance.bundle.js:1)
+[ERROR - 2021-07-01T10:50:57.606Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2021-07-01T10:50:57.607Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - page.onError - stack:
+  5712f1b9446531a0f3b8 (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  63f14ac74ce296f77f4d (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  2c620f2e3a281f750097 (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  i (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  (anonymous function) (https://mybbc.files.bbci.co.uk/notification-ui/4.3.7/js/NotificationsMain.js:2)
+  execCb (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  enable (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  init (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  a (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  completeLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  onScriptLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+[ERROR - 2021-07-01T10:50:57.858Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.addSmpPlugin')
+[ERROR - 2021-07-01T10:50:57.859Z] Session [35d2eea0-da5a-11eb-beb8-0f24c2aea653] - page.onError - stack:
+  (anonymous function) (https://gn-web-assets.api.bbc.com/wwhp/20210621-1346-9144af9173f4d0c427a321d53978bb7d2ed2652e/modules/compiled.js:1)
+  (anonymous function) (:0)
+  execCb (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  (anonymous function) (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  each (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  emit (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  check (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  enable (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  init (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  a (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  completeLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+  onScriptLoad (https://static.files.bbci.co.uk/orbit/86efadef229d1a4ee7019331f832e9f5/js/require.min.js:1)
+[INFO  - 2021-07-01T10:50:59.375Z] ShutdownReqHand - _handle - About to shutdown

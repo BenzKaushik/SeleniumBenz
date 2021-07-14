@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Another Skip Suite]">
+  <test thread-count="5" name="Skip Exception Test Case(failed)">
+    <classes>
+      <class name="annotations.AnotherSKIPTechniqueTestAnnotation">
+        <methods>
+          <include name="LoginRediffmail"/>
+          <include name="Logout"/>
+          <include name="SendMail"/>
+        </methods>
+      </class> <!-- annotations.AnotherSKIPTechniqueTestAnnotation -->
+    </classes>
+  </test> <!-- Skip Exception Test Case(failed) -->
+</suite> <!-- Failed suite [Another Skip Suite] -->

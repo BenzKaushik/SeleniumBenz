@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assertion Suite]">
+  <test thread-count="5" name="Assertion Test Case(failed)">
+    <classes>
+      <class name="annotations.AssertionsTestAnnotation">
+        <methods>
+          <include name="Logout"/>
+          <include name="LoginRediffmail"/>
+        </methods>
+      </class> <!-- annotations.AssertionsTestAnnotation -->
+    </classes>
+  </test> <!-- Assertion Test Case(failed) -->
+</suite> <!-- Failed suite [Assertion Suite] -->

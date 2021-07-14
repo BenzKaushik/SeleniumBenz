@@ -1,0 +1,6 @@
+1625729409085	geckodriver	INFO	Listening on 127.0.0.1:14213
+1625729409825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-notifications" "disable-infobars" "-foreground" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileVGzOBO"
+1625729410214	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileVGzOBO\\search.json.mozlz4", (void 0)))
+1625729412555	Marionette	INFO	Listening on port 59999
+1625729413038	Marionette	WARN	TLS certificate errors will be ignored for this session

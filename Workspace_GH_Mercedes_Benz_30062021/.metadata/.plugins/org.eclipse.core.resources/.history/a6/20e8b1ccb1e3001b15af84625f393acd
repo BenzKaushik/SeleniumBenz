@@ -1,0 +1,28 @@
+package rough;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+public class example {
+
+	public static void main(String[] args) {
+
+		try {
+			Properties p = new Properties();
+			//Get the data from browser .properties file
+			//Stream the data from the location ib BYTE format
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\rough\\browser.properties");
+			//Load the inputstream using the load method of Properties class
+			p.load(fis);
+			
+			//REad the value of the Keys
+			String browserName = p.getProperty("browser1");
+			System.out.println(browserName);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

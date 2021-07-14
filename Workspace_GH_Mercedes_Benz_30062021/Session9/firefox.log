@@ -1,0 +1,7 @@
+1625632807685	geckodriver	INFO	Listening on 127.0.0.1:31935
+1625632819042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileihhpiF"
+1625632820437	Marionette	INFO	Marionette enabled
+1625632823462	Marionette	INFO	Listening on port 50482
+1625632823809	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: moz-extension://4cc2340a-1321-4732-9119-8e5b9dbb6b71/assets/prompt.js, line 1: SyntaxError: redeclaration of let nextPromptResult

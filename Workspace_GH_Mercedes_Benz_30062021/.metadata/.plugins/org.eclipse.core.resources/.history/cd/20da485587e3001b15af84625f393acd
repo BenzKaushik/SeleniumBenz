@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Assertion_Class_Suite___Rediffmail">
+              <span class="suite-name border-failed">Assertion Class Suite - Rediffmail</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Assertion_Class_Suite___Rediffmail">
+                    <span>C:\Users\lenovo\Desktop\Workspace_GH_Mercedes_Benz_30062021\TestNG12\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Assertion_Class_Suite___Rediffmail">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Assertion_Class_Suite___Rediffmail">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Assertion_Class_Suite___Rediffmail">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Assertion_Class_Suite___Rediffmail">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Assertion_Class_Suite___Rediffmail">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Assertion_Class_Suite___Rediffmail">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 4 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Assertion_Class_Suite___Rediffmail" class="hide-methods failed suite-Assertion_Class_Suite___Rediffmail"> (hide)</a> <!-- hide-methods failed suite-Assertion_Class_Suite___Rediffmail -->
+                      <a href="#" panel-name="suite-Assertion_Class_Suite___Rediffmail" class="show-methods failed suite-Assertion_Class_Suite___Rediffmail"> (show)</a> <!-- show-methods failed suite-Assertion_Class_Suite___Rediffmail -->
+                    </span>
+                    <div class="method-list-content failed suite-Assertion_Class_Suite___Rediffmail">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assertion_Class_Suite___Rediffmail" title="TestCase.formRediffmail" hash-for-method="FillingFormRediffmail({PNumber=12345, MName=Sukla, RID=kaushikmukherjee2412, FName=Kaushik Mukherjee, Rpwd=test@1234, Pwd=...)">FillingFormRediffmail({PNumber=12345, MName=Sukla, RID=kaushikmukherjee2412, FName=Kaushik Mukherjee, Rpwd=test@1234, Pwd=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assertion_Class_Suite___Rediffmail" title="TestCase.formRediffmail" hash-for-method="FillingFormRediffmail({PNumber=45678, MName=Jenny, RID=SamMendes2412, FName=Sam Mendes, Rpwd=test@5678, Pwd=test@5678, SQu...)">FillingFormRediffmail({PNumber=45678, MName=Jenny, RID=SamMendes2412, FName=Sam Mendes, Rpwd=test@5678, Pwd=test@5678, SQu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assertion_Class_Suite___Rediffmail" title="TestCase.SendingMailRediff" hash-for-method="SendingEmailRediff({CField=Development Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=arundhoti.mukherjee...)">SendingEmailRediff({CField=Development Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=arundhoti.mukherjee...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assertion_Class_Suite___Rediffmail" title="TestCase.SendingMailRediff" hash-for-method="SendingEmailRediff({CField=Test Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=kaushik.aryaan@gmail.com, ...)">SendingEmailRediff({CField=Test Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=kaushik.aryaan@gmail.com, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Assertion_Class_Suite___Rediffmail -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Assertion_Class_Suite___Rediffmail" class="panel Assertion_Class_Suite___Rediffmail">
+          <div class="suite-Assertion_Class_Suite___Rediffmail-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.formRediffmail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillingFormRediffmail({PNumber=12345, MName=Sukla, RID=kaushikmukherjee2412, FName=Kaushik Mukherjee, Rpwd=test@1234, Pwd=...)">
+                  </a> <!-- FillingFormRediffmail({PNumber=12345, MName=Sukla, RID=kaushikmukherjee2412, FName=Kaushik Mukherjee, Rpwd=test@1234, Pwd=...) -->
+                  <span class="method-name">FillingFormRediffmail</span>
+                  <span class="parameters">({PNumber=12345, MName=Sukla, RID=kaushikmukherjee2412, FName=Kaushik Mukherjee, Rpwd=test@1234, Pwd=test@1234, SQues=Music, Browser=Chrome})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Attribute value verification failed for for the attribute called class expected [countr] but found [country]
+	at Utilities.Utils.AssertAttributeValue(Utils.java:657)
+	at TestCase.formRediffmail.FillingFormRediffmail(formRediffmail.java:318)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillingFormRediffmail({PNumber=45678, MName=Jenny, RID=SamMendes2412, FName=Sam Mendes, Rpwd=test@5678, Pwd=test@5678, SQu...)">
+                  </a> <!-- FillingFormRediffmail({PNumber=45678, MName=Jenny, RID=SamMendes2412, FName=Sam Mendes, Rpwd=test@5678, Pwd=test@5678, SQu...) -->
+                  <span class="method-name">FillingFormRediffmail</span>
+                  <span class="parameters">({PNumber=45678, MName=Jenny, RID=SamMendes2412, FName=Sam Mendes, Rpwd=test@5678, Pwd=test@5678, SQues=Reading, Browser=Edge})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Attribute value verification failed for for the attribute called class expected [countr] but found [country]
+	at Utilities.Utils.AssertAttributeValue(Utils.java:657)
+	at TestCase.formRediffmail.FillingFormRediffmail(formRediffmail.java:318)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assertion_Class_Suite___Rediffmail-class-failed -->
+          <div class="suite-Assertion_Class_Suite___Rediffmail-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.SendingMailRediff</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendingEmailRediff({CField=Development Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=arundhoti.mukherjee...)">
+                  </a> <!-- SendingEmailRediff({CField=Development Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=arundhoti.mukherjee...) -->
+                  <span class="method-name">SendingEmailRediff</span>
+                  <span class="parameters">({CField=Development Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=arundhoti.mukherjee@gmail.com, SField=Development Mail, Browser=Edge})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Text verification failed for for the text Logout expected [Logou] but found [Logout]
+	at Utilities.Utils.AssertText(Utils.java:529)
+	at TestCase.SendingMailRediff.SendingEmailRediff(SendingMailRediff.java:157)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendingEmailRediff({CField=Test Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=kaushik.aryaan@gmail.com, ...)">
+                  </a> <!-- SendingEmailRediff({CField=Test Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=kaushik.aryaan@gmail.com, ...) -->
+                  <span class="method-name">SendingEmailRediff</span>
+                  <span class="parameters">({CField=Test Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=kaushik.aryaan@gmail.com, SField=Test Mail, Browser=Chrome})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Text verification failed for for the text Logout expected [Logou] but found [Logout]
+	at Utilities.Utils.AssertText(Utils.java:529)
+	at TestCase.SendingMailRediff.SendingEmailRediff(SendingMailRediff.java:157)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assertion_Class_Suite___Rediffmail-class-failed -->
+        </div> <!-- panel Assertion_Class_Suite___Rediffmail -->
+        <div panel-name="test-xml-Assertion_Class_Suite___Rediffmail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lenovo\Desktop\Workspace_GH_Mercedes_Benz_30062021\TestNG12\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Assertion Class Suite - Rediffmail&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Rediffmail Form Test Case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.formRediffmail&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rediffmail Form Test Case --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Rediffmail Compose Email Test Case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.SendingMailRediff&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rediffmail Compose Email Test Case --&gt;
+&lt;/suite&gt; &lt;!-- Assertion Class Suite - Rediffmail --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Assertion_Class_Suite___Rediffmail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Assertion Class Suite - Rediffmail</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Rediffmail Form Test Case (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Rediffmail Compose Email Test Case (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Assertion_Class_Suite___Rediffmail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Assertion Class Suite - Rediffmail</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Assertion_Class_Suite___Rediffmail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Assertion Class Suite - Rediffmail</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Assertion_Class_Suite___Rediffmail');
+function tableData_Assertion_Class_Suite___Rediffmail() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SendingEmailRediff')
+data.setCell(0, 2, 'TestCase.SendingMailRediff')
+data.setCell(0, 3, 15276);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SendingEmailRediff')
+data.setCell(1, 2, 'TestCase.SendingMailRediff')
+data.setCell(1, 3, 13083);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FillingFormRediffmail')
+data.setCell(2, 2, 'TestCase.formRediffmail')
+data.setCell(2, 3, 8270);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'FillingFormRediffmail')
+data.setCell(3, 2, 'TestCase.formRediffmail')
+data.setCell(3, 3, 7347);
+window.suiteTableData['Assertion_Class_Suite___Rediffmail']= { tableData: data, tableDiv: 'times-div-Assertion_Class_Suite___Rediffmail'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-Assertion_Class_Suite___Rediffmail">
+              </div> <!-- times-div-Assertion_Class_Suite___Rediffmail -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Assertion_Class_Suite___Rediffmail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Assertion Class Suite - Rediffmail</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Assertion_Class_Suite___Rediffmail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Assertion_Class_Suite___Rediffmail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.formRediffmail</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FillingFormRediffmail({PNumber=12345, MName=Sukla, RID=kaushikmukherjee2412, FName=Kaushik Mukherjee, Rpwd=test@1234, Pwd=...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=FillingFormRediffmail status=FAILURE method=formRediffmail.FillingFormRediffmail(ja...)</span>
+                <span class="method-start">7350 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FillingFormRediffmail({PNumber=45678, MName=Jenny, RID=SamMendes2412, FName=Sam Mendes, Rpwd=test@5678, Pwd=test@5678, SQu...)</span>
+                <span class="method-start">8187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=FillingFormRediffmail status=FAILURE method=formRediffmail.FillingFormRediffmail(ja...)</span>
+                <span class="method-start">16461 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.SendingMailRediff</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SendingEmailRediff({CField=Test Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=kaushik.aryaan@gmail.com, ...)</span>
+                <span class="method-start">17508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SendingEmailRediff status=FAILURE method=SendingMailRediff.SendingEmailRediff(java....)</span>
+                <span class="method-start">30602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SendingEmailRediff({CField=Development Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=arundhoti.mukherjee...)</span>
+                <span class="method-start">31509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SendingEmailRediff status=FAILURE method=SendingMailRediff.SendingEmailRediff(java....)</span>
+                <span class="method-start">46789 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Priority &amp; Dependency Suite">
+  <test thread-count="5" name="Dependency Test Case">
+    <classes>
+      <class name="annotations.AssertionsTestAnnotation"/>
+    </classes>
+  </test> <!-- Dependency Test Case -->
+</suite> <!-- Priority & Dependency Suite -->

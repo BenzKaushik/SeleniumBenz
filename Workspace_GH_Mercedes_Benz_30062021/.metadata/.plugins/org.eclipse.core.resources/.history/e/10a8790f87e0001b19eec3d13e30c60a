@@ -1,0 +1,30 @@
+package annotations;
+
+import org.testng.annotations.Test;
+
+public class ExampleTestAnnotation {
+	
+	//Login to Rediffmail - Test annotation
+	//Write Email - Test annotation
+	//Logout - Test annotation
+	
+	
+	
+	@Test
+	public void LoginRediffmail() {
+		System.out.println("Login to Rediffmail application");
+	}
+	
+	
+	@Test
+	public void SendMail() {
+		System.out.println("Sending mail after logging in");
+	}
+	
+	@Test
+	public void Logout() {
+		System.out.println("Logging out of Rediffmail application");
+	}
+	
+	
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rediffmail Suite" duration-ms="97" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+    <groups>
+    </groups>
+    <test name="Save Mail Test Case" duration-ms="47" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+      <class name="allAnnotations.SaveMail">
+        <test-method status="PASS" signature="ConnectDatabaseRediffmailApplication()[pri:0, instance:allAnnotations.SaveMail@6ee52dcd]" name="ConnectDatabaseRediffmailApplication" is-config="true" duration-ms="0" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectDatabaseRediffmailApplication -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:allAnnotations.SaveMail@6ee52dcd]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="NavigateLoginRediffmail()[pri:0, instance:allAnnotations.SaveMail@6ee52dcd]" name="NavigateLoginRediffmail" is-config="true" duration-ms="0" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateLoginRediffmail -->
+        <test-method status="PASS" signature="SaveMailRediff()[pri:0, instance:allAnnotations.SaveMail@6ee52dcd]" name="SaveMailRediff" duration-ms="8" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveMailRediff -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:allAnnotations.SaveMail@6ee52dcd]" name="Logout" is-config="true" duration-ms="1" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:allAnnotations.SaveMail@6ee52dcd]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="DisConnectDatabaseRediffmailApplication()[pri:0, instance:allAnnotations.SaveMail@6ee52dcd]" name="DisConnectDatabaseRediffmailApplication" is-config="true" duration-ms="0" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisConnectDatabaseRediffmailApplication -->
+      </class> <!-- allAnnotations.SaveMail -->
+    </test> <!-- Save Mail Test Case -->
+    <test name="Send Mail Test Case" duration-ms="12" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+      <class name="allAnnotations.SaveMail">
+        <test-method status="PASS" signature="InitialiseObjectRepositoryRediffmail()[pri:0, instance:allAnnotations.SaveMail@6ee52dcd]" name="InitialiseObjectRepositoryRediffmail" is-config="true" duration-ms="10" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseObjectRepositoryRediffmail -->
+      </class> <!-- allAnnotations.SaveMail -->
+      <class name="allAnnotations.SendMail">
+        <test-method status="PASS" signature="ConnectDatabaseRediffmailApplication()[pri:0, instance:allAnnotations.SendMail@27808f31]" name="ConnectDatabaseRediffmailApplication" is-config="true" duration-ms="1" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectDatabaseRediffmailApplication -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:allAnnotations.SendMail@27808f31]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="NavigateLoginRediffmail()[pri:0, instance:allAnnotations.SendMail@27808f31]" name="NavigateLoginRediffmail" is-config="true" duration-ms="1" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateLoginRediffmail -->
+        <test-method status="PASS" signature="SendMailRediff()[pri:0, instance:allAnnotations.SendMail@27808f31]" name="SendMailRediff" duration-ms="1" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMailRediff -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:allAnnotations.SendMail@27808f31]" name="Logout" is-config="true" duration-ms="1" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:allAnnotations.SendMail@27808f31]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="DisConnectDatabaseRediffmailApplication()[pri:0, instance:allAnnotations.SendMail@27808f31]" name="DisConnectDatabaseRediffmailApplication" is-config="true" duration-ms="0" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisConnectDatabaseRediffmailApplication -->
+        <test-method status="PASS" signature="DeInitialiseObjectRepositoryRediffmail()[pri:0, instance:allAnnotations.SendMail@27808f31]" name="DeInitialiseObjectRepositoryRediffmail" is-config="true" duration-ms="1" started-at="2021-07-13T12:29:33 IST" finished-at="2021-07-13T12:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeInitialiseObjectRepositoryRediffmail -->
+      </class> <!-- allAnnotations.SendMail -->
+    </test> <!-- Send Mail Test Case -->
+  </suite> <!-- Rediffmail Suite -->
+</testng-results>

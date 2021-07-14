@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Priority &amp; Dependency Suite]">
+  <test thread-count="5" name="Dependency Test Case(failed)">
+    <classes>
+      <class name="annotations.AssertionsTestAnnotation">
+        <methods>
+          <include name="SendMail"/>
+          <include name="Logout"/>
+          <include name="LoginRediffmail"/>
+        </methods>
+      </class> <!-- annotations.AssertionsTestAnnotation -->
+    </classes>
+  </test> <!-- Dependency Test Case(failed) -->
+</suite> <!-- Failed suite [Priority & Dependency Suite] -->

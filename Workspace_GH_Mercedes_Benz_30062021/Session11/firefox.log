@@ -1,0 +1,11 @@
+1625644532142	geckodriver	INFO	Listening on 127.0.0.1:19104
+1625644532893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-notifications" "disable-infobars" "-foreground" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileaGxVKi"
+1625644533265	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileaGxVKi\\search.json.mozlz4", (void 0)))
+1625644535865	Marionette	INFO	Listening on port 62622
+1625644536134	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625644540991	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1625644541640	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://assets.emarsys.net/web-emarsys-sdk/2.2.0/web-emarsys-sdk.js, line 1: Error: Push service is not set up!
+JavaScript error: https://www.americangolf.co.uk/golf-clubs/wedges, line 60: TypeError: WebEmarsysSdk.subscribe is not a function
+JavaScript error: https://www.americangolf.co.uk/golf-clubs/wedges, line 60: TypeError: WebEmarsysSdk.subscribe is not a function

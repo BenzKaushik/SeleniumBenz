@@ -1,0 +1,16 @@
+# This will take key values pairs
+# Keys should be unique
+# Value can be duplicated
+# Properties class will be used to read this properties file
+# Properties class is a class which implements the MAP interface
+
+#Forwhat_Locator_Element
+waitTextCreateARediffmailAccount_className_landingPage = f22
+verifyTextCreateARediffmailAccount_className_landingPage = f22
+assertTextCreateARediffmailAccount_xpath_landingPage = //*[@id=\"tblcrtac\"]/tbody/tr[1]/td
+assertTextFullName_xpath_fullNameEditBox = //*[@id=\\"tblcrtac\\"]/tbody/tr[3]/td[1]
+typeFullName_xpath_fullNameEditBox = //*[@id='tblcrtac']/tbody/tr[3]/td[3]/input
+assertTextChooseRediffmailID_xpath_fullNameEditBox = //*[@id=\"tblcrtac\"]/tbody/tr[7]/td[1]
+typeTextChooseRediffmailID_xpath_fullNameEditBox = //*[@id='tblcrtac']/tbody/tr[7]/td[3]/input[1]
+assertAttributeValueChooseRediffmailID_xpath_checkavailabilityButton = //*[@id=\"tblcrtac\"]/tbody/tr[7]/td[3]/input[2]
+clickCheckAvailabilityActions_xpath_checkavailabilityButton = //*[@id='tblcrtac']/tbody/tr[7]/td[3]/input[2]

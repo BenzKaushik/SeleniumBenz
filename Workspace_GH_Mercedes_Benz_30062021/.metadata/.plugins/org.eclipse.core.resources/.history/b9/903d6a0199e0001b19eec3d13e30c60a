@@ -1,0 +1,77 @@
+package annotations;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.Assertion;
+
+public class AssertionsTestAnnotation {
+	
+	//Login to Rediffmail - Test annotation
+	//Write Email - Test annotation
+	//Logout - Test annotation
+	
+	//Prioritize the test annotation method to run in the order in which we want.
+	
+	/*There are two kinds of Assertions / Validation in TestNG framework:
+	 * 
+	 * 1) Soft Assertion - >. SoftAssert class
+	 * 2) Hard Assertion --> Assert class 
+	 * 
+	 * Working Behaviour:
+	 * If assertions fails at a particular line, from that line onwards, the compilation stops.This 
+	 * is the story of HARD ASSERTION. The test annotation method in which ASSERTION failed, will fail, the
+	 * test case will fail and the suite will fail.We can use the ASSERTION class or ASSERT class
+	 * 
+	 * If assertions fails at a particular line, the lines below the line where assertions failed,
+	 * is compiled. This is the story of SOFT ASSERTION but remember to use the ASSERT ALL method.
+	 * The test annotation method in which ASSERTION failed, will fail, the
+	 * test case will fail and the suite will fail.
+	 */
+	
+	public Assertion a;
+	
+	
+	@Test(priority = 1)
+	public void LoginRediffmail() {
+		System.out.println("Login to Rediffmail application");
+		//Hard Assertion
+		a = new Assertion();
+		//Assert b = new Assert();
+		a.assertEquals(true, true);
+		System.out.println("Line after 1st assertion");
+		a.assertEquals(2, 2);
+		System.out.println("Line after 2nd assertion");
+		//If the assertion fails, then only MESSAGE is thrown out
+		a.assertEquals(true, true, "Expectation and actual did not match");
+		System.out.println("Line after 3rd assertion");
+		//assertFalse means , the expectations are false
+		a.assertFalse(false);
+		System.out.println("Line after 4th assertion");
+		a.assertFalse(false, "Boolean results not matching");
+		System.out.println("Line after 5th assertion");
+		a.assertNotEquals(4, 5);
+		System.out.println("Line after 6th assertion");
+		a.assertNotEquals("Hi", "hi", "Actual is equal to expected");
+		System.out.println("Line after 7th assertion");
+		//assertTruemeans , the expectations are true
+		a.assertTrue(true);
+		System.out.println("Line after 8th assertion");
+		//Messages are thrown when assertion fails
+		a.assertTrue(false, "Actual is not equal to expected");
+		System.out.println("Line after 9th assertion");
+		
+	}
+	
+	
+	@Test(priority = 2)
+	public void SendMail() {
+		System.out.println("Sending mail after logging in");
+	}
+	
+	@Test(priority = 3)
+	public void Logout() {
+		System.out.println("Logging out of Rediffmail application");
+	}
+	
+	
+}

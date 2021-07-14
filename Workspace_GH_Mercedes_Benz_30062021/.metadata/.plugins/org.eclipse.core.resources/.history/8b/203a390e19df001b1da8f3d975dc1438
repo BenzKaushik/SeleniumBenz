@@ -1,0 +1,11 @@
+//Want to get text from third column of the heading of the table
+//*[@id='leftcontainer']/table/thead/tr/th[3]
+
+//Want to get text from fifth column of the heading of the table
+//*[@id='leftcontainer']/table/thead/tr/th[5]
+
+//Want to get all data from all column of the heading  - manipulate the xpath
+//*[@id='leftcontainer']/table/thead/tr/th - find out how many elements have the same xpath
+//*[@id='leftcontainer']/table/thead/tr/th  - this will give the data present in first column of the heading
+//*[@id=\"leftcontainer\"]/table/thead/tr/th[1] - xpath of first column of the heading
+//*[@id='leftcontainer']/table/thead/tr  - find out how many elements have the same xpath

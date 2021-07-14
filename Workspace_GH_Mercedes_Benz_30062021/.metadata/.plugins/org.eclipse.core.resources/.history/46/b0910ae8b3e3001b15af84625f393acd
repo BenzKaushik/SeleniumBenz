@@ -1,0 +1,5 @@
+# This will take key values pairs
+# Keys should be unique
+# Value can be duplicated
+# Properties class will be used to read this properties file
+# Properties class is a class which implements the MAP interface

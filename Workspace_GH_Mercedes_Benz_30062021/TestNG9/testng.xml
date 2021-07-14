@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Multi Suite - Parent">
+   <suite-files >
+  	<suite-file path="./Suite_a.xml"></suite-file>
+  	<suite-file path="./Suite_b.xml"></suite-file>
+  </suite-files>
+</suite> <!-- Multi Suite -->

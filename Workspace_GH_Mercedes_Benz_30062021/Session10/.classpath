@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-api-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-api-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-chrome-driver-4.0.0-beta-4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://www.selenium.dev/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-chrome-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-chromium-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-chromium-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v85-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v85-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v88-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v88-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v89-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v89-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v90-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v90-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v91-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-devtools-v91-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-edge-driver-4.0.0-beta-4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://www.selenium.dev/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-edge-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-firefox-driver-4.0.0-beta-4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://www.selenium.dev/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-firefox-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-firefox-xpi-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-firefox-xpi-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-http-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-http-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-ie-driver-4.0.0-beta-4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://www.selenium.dev/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-ie-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-java-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-java-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-json-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-json-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-opera-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-opera-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-remote-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-remote-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-safari-driver-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-safari-driver-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-support-4.0.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/selenium-support-4.0.0-beta-4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/async-http-client-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/async-http-client-netty-utils-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/auto-common-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/auto-service-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/auto-service-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/byte-buddy-1.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/checker-qual-3.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/error_prone_annotations-2.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/guava-30.1.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/jakarta.activation-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/jcommander-1.81.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/jtoml-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-buffer-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-codec-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-codec-http-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-codec-socks-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-common-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-handler-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-handler-proxy-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-reactive-streams-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-resolver-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-transport-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-transport-native-epoll-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-transport-native-kqueue-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/netty-transport-native-unix-common-4.1.63.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-api-metrics-1.2.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-context-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-exporter-logging-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-sdk-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-sdk-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-sdk-extension-autoconfigure-1.2.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-sdk-metrics-1.2.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-sdk-trace-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/opentelemetry-semconv-1.2.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/GH_Mercedes benz/API and Software/Selenium4_0_0_beta/lib/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

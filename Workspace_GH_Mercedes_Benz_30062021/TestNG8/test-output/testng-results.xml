@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group Suite" duration-ms="110" started-at="2021-07-09T17:08:02 IST" finished-at="2021-07-09T17:08:02 IST">
+    <groups>
+      <group name="windows.functionaltest">
+        <method signature="Example2.testMethod7()[pri:0, instance:Group.Example2@7d70d1b1]" name="testMethod7" class="Group.Example2"/>
+      </group> <!-- windows.functionaltest -->
+      <group name="Regression">
+        <method signature="Example1.testMethod3()[pri:0, instance:Group.Example1@5e853265]" name="testMethod3" class="Group.Example1"/>
+        <method signature="Example1.testMethod4()[pri:0, instance:Group.Example1@5e853265]" name="testMethod4" class="Group.Example1"/>
+      </group> <!-- Regression -->
+      <group name="functest">
+        <method signature="Example1.testMethod4()[pri:0, instance:Group.Example1@5e853265]" name="testMethod4" class="Group.Example1"/>
+      </group> <!-- functest -->
+      <group name="windows.SmokeTest">
+        <method signature="Example2.testMethod5()[pri:0, instance:Group.Example2@7d70d1b1]" name="testMethod5" class="Group.Example2"/>
+      </group> <!-- windows.SmokeTest -->
+    </groups>
+    <test name="Test Case 1" duration-ms="62" started-at="2021-07-09T17:08:02 IST" finished-at="2021-07-09T17:08:02 IST">
+      <class name="Group.Example1">
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:Group.Example1@5e853265]" name="testMethod3" duration-ms="11" started-at="2021-07-09T17:08:02 IST" finished-at="2021-07-09T17:08:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="testMethod4()[pri:0, instance:Group.Example1@5e853265]" name="testMethod4" duration-ms="1" started-at="2021-07-09T17:08:02 IST" finished-at="2021-07-09T17:08:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+      </class> <!-- Group.Example1 -->
+    </test> <!-- Test Case 1 -->
+    <test name="RegularExpressionTest2" duration-ms="10" started-at="2021-07-09T17:08:02 IST" finished-at="2021-07-09T17:08:02 IST">
+      <class name="Group.Example2">
+        <test-method status="PASS" signature="testMethod5()[pri:0, instance:Group.Example2@7d70d1b1]" name="testMethod5" duration-ms="2" started-at="2021-07-09T17:08:02 IST" finished-at="2021-07-09T17:08:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod5 -->
+        <test-method status="PASS" signature="testMethod7()[pri:0, instance:Group.Example2@7d70d1b1]" name="testMethod7" duration-ms="1" started-at="2021-07-09T17:08:02 IST" finished-at="2021-07-09T17:08:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod7 -->
+      </class> <!-- Group.Example2 -->
+    </test> <!-- RegularExpressionTest2 -->
+  </suite> <!-- Group Suite -->
+</testng-results>

@@ -1,0 +1,253 @@
+[1625740500.829][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 35477
+[1625740500.829][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1625740501.603][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-notifications", "disable-infobars", "--start-maximized" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-notifications", "disable-infobars", "--start-maximized" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1625740501.604][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1625740501.606][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1625740501.610][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\lenovo\AppData\Local\Temp\scoped_dir5128_1663287670" data:,
+[1625740502.110][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1625740502.115][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.124",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})",
+         "userDataDir": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\scoped_dir5128_1663287670"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61066"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ad7318d2a4d6820ccc266b9b2f6d328b"
+}
+[1625740502.196][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND Navigate {
+   "url": "https://www.rediff.com/"
+}
+[1625740502.196][INFO]: Waiting for pending navigations...
+[1625740502.197][INFO]: Done waiting for pending navigations. Status: ok
+[1625740502.244][INFO]: Waiting for pending navigations...
+[1625740503.178][INFO]: Done waiting for pending navigations. Status: ok
+[1625740503.178][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE Navigate
+[1625740503.185][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND SetTimeouts {
+   "pageLoad": 20000
+}
+[1625740503.185][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE SetTimeouts
+[1625740503.191][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND SetTimeouts {
+   "implicit": 20000
+}
+[1625740503.191][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE SetTimeouts
+[1625740503.216][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GetTitle {
+
+}
+[1625740503.216][INFO]: Waiting for pending navigations...
+[1625740503.216][INFO]: Done waiting for pending navigations. Status: ok
+[1625740503.219][INFO]: Waiting for pending navigations...
+[1625740503.220][INFO]: Done waiting for pending navigations. Status: ok
+[1625740503.220][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GetTitle "Rediff.com: News | Rediffmail | Stock Quotes | Shopping"
+[1625740503.223][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GetTitle {
+
+}
+[1625740503.223][INFO]: Waiting for pending navigations...
+[1625740503.223][INFO]: Done waiting for pending navigations. Status: ok
+[1625740503.225][INFO]: Waiting for pending navigations...
+[1625740503.226][INFO]: Done waiting for pending navigations. Status: ok
+[1625740503.226][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GetTitle "Rediff.com: News | Rediffmail | Stock Quotes | Shopping"
+[1625740503.231][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text() = 'Rediffmail']"
+}
+[1625740503.231][INFO]: Waiting for pending navigations...
+[1625740503.283][INFO]: Done waiting for pending navigations. Status: ok
+[1625740503.301][INFO]: Waiting for pending navigations...
+[1625740503.305][INFO]: Done waiting for pending navigations. Status: ok
+[1625740503.305][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4c84133f-ea98-4f37-9367-1f7b90b2f2c5"
+}
+[1625740503.321][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND ClickElement {
+   "id": "4c84133f-ea98-4f37-9367-1f7b90b2f2c5"
+}
+[1625740503.321][INFO]: Waiting for pending navigations...
+[1625740503.444][INFO]: Done waiting for pending navigations. Status: ok
+[1625740503.616][INFO]: Waiting for pending navigations...
+[1625740504.175][INFO]: Done waiting for pending navigations. Status: ok
+[1625740504.175][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE ClickElement
+[1625740504.179][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//p[text() = 'Username']"
+}
+[1625740504.179][INFO]: Waiting for pending navigations...
+[1625740504.179][INFO]: Done waiting for pending navigations. Status: ok
+[1625740504.195][INFO]: Waiting for pending navigations...
+[1625740504.195][INFO]: Done waiting for pending navigations. Status: ok
+[1625740504.195][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "24af32c7-872a-4b48-a07f-d2164e9fd06f"
+}
+[1625740504.198][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GetElementText {
+   "id": "24af32c7-872a-4b48-a07f-d2164e9fd06f"
+}
+[1625740504.198][INFO]: Waiting for pending navigations...
+[1625740504.198][INFO]: Done waiting for pending navigations. Status: ok
+[1625740504.216][INFO]: Waiting for pending navigations...
+[1625740504.217][INFO]: Done waiting for pending navigations. Status: ok
+[1625740504.217][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GetElementText "Username"
+[1625740504.220][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GetTitle {
+
+}
+[1625740504.220][INFO]: Waiting for pending navigations...
+[1625740504.220][INFO]: Done waiting for pending navigations. Status: ok
+[1625740504.225][INFO]: Waiting for pending navigations...
+[1625740504.243][INFO]: Done waiting for pending navigations. Status: ok
+[1625740504.243][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GetTitle "Rediffmail"
+[1625740504.251][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GoBack {
+
+}
+[1625740504.251][INFO]: Waiting for pending navigations...
+[1625740504.270][INFO]: Done waiting for pending navigations. Status: ok
+[1625740504.304][INFO]: Waiting for pending navigations...
+[1625740518.964][INFO]: Done waiting for pending navigations. Status: ok
+[1625740518.964][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GoBack
+[1625740518.967][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GetTitle {
+
+}
+[1625740518.967][INFO]: Waiting for pending navigations...
+[1625740518.969][INFO]: Done waiting for pending navigations. Status: ok
+[1625740518.971][INFO]: Waiting for pending navigations...
+[1625740518.979][INFO]: Done waiting for pending navigations. Status: ok
+[1625740518.979][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GetTitle "Rediff.com: News | Rediffmail | Stock Quotes | Shopping"
+[1625740519.003][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GetTitle {
+
+}
+[1625740519.041][INFO]: Waiting for pending navigations...
+[1625740519.042][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.044][INFO]: Waiting for pending navigations...
+[1625740519.044][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.044][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GetTitle "Rediff.com: News | Rediffmail | Stock Quotes | Shopping"
+[1625740519.047][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GoForward {
+
+}
+[1625740519.047][INFO]: Waiting for pending navigations...
+[1625740519.048][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.055][INFO]: Waiting for pending navigations...
+[1625740519.056][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.056][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GoForward
+[1625740519.067][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//p[text() = 'Username']"
+}
+[1625740519.067][INFO]: Waiting for pending navigations...
+[1625740519.408][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.413][INFO]: Waiting for pending navigations...
+[1625740519.414][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.414][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f382e4bd-8b90-41fa-9000-7a362e306492"
+}
+[1625740519.416][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GetElementText {
+   "id": "f382e4bd-8b90-41fa-9000-7a362e306492"
+}
+[1625740519.416][INFO]: Waiting for pending navigations...
+[1625740519.416][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.427][INFO]: Waiting for pending navigations...
+[1625740519.427][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.427][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GetElementText "Username"
+[1625740519.429][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] COMMAND GetTitle {
+
+}
+[1625740519.429][INFO]: Waiting for pending navigations...
+[1625740519.430][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.431][INFO]: Waiting for pending navigations...
+[1625740519.432][INFO]: Done waiting for pending navigations. Status: ok
+[1625740519.432][INFO]: [ad7318d2a4d6820ccc266b9b2f6d328b] RESPONSE GetTitle "Rediffmail"

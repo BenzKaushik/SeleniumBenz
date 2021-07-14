@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rediff Mail Suite">
+  <test thread-count="5" name="Fill Form Test Case">
+    <classes>
+      <class name="TestCase.formRediffmail"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Send Mail Test Case">
+    <classes>
+      <class name="TestCase.SendingMailRediff"/>
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- Rediff Mail Suite -->

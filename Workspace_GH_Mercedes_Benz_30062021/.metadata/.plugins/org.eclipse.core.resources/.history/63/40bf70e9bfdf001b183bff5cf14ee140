@@ -1,0 +1,6 @@
+I 2021-07-08 13:00:49:883 C:\Projects\webdriver\cpp\webdriver-server\server.cc(87) Starting WebDriver server on port: '15452' on host: ''
+I 2021-07-08 13:00:49:884 C:\Projects\webdriver\cpp\iedriver\IEServer.cpp(33) Driver version: 3.150.1.0 (32-bit)
+W 2021-07-08 13:00:50:674 C:\Projects\webdriver\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(105) Invalid capability setting: timeouts is type null instead of object. Default value will be used: null
+
+I 2021-07-08 13:00:51:442 C:\Projects\webdriver\cpp\iedriver\IECommandExecutor.cpp(1368) Persistent hovering set to: 1
+W 2021-07-08 13:00:51:589 C:\Projects\webdriver\cpp\iedriver\Browser.cpp(67) A new browser process was requested. This means a Protected Mode boundary has been crossed, and that future commands to the current browser instance will fail. The driver will attempt to reconnect to the newly created browser object, but there is no guarantee it will work.

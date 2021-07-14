@@ -1,0 +1,31 @@
+package TestCase;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
+
+public class MyListener extends AbstractWebDriverEventListener{
+	
+	public WebDriver driver;
+	
+	public void afterNavigateForward​(WebDriver driver) {
+		this.driver = driver;
+		System.out.println("After navigating forward");
+		
+	}
+	
+	public void beforeNavigateForward​(WebDriver driver) {
+		this.driver = driver;
+		System.out.println("Before navigating forward");
+	}
+	
+	public void beforeNavigateBack​(WebDriver driver) {
+		this.driver = driver;
+		System.out.println("Before navigating back");
+	}
+	
+	public void afterNavigateBack​(WebDriver driver) {
+		this.driver = driver;
+		System.out.println("After navigating back");
+	}
+
+}

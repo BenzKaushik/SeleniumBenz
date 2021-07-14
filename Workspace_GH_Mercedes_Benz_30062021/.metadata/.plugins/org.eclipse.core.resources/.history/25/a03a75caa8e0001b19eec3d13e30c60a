@@ -1,0 +1,31 @@
+package Group;
+
+import org.testng.annotations.Test;
+
+//Note --> When running group based test cases , run it as TestNG Suite.
+
+public class Example1 {
+	
+	 @Test(groups = {"functest", "SmokeTest", "Regression" })
+	 public void testMethod1(){
+		 
+		 
+	 }
+	 
+	  @Test(groups = {"functest", "SmokeTest"} )
+	  public void testMethod2() {
+		  
+	  }
+	 
+	  @Test(groups = {"Regression" })
+	  public void testMethod3() {
+	  }
+	  
+	  @Test(groups = {"functest", "Regression" })
+	  public void testMethod4() {
+		  
+	  }
+
+
+
+}

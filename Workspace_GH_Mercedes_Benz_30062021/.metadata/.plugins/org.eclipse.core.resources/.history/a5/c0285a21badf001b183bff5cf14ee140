@@ -1,0 +1,165 @@
+[1625727453.080][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 45068
+[1625727453.080][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1625727453.837][INFO]: [a0162557ebdb961e57968860220a0d60] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-notifications", "disable-infobars", "--start-maximized" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-notifications", "disable-infobars", "--start-maximized" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1625727453.839][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1625727453.840][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1625727453.842][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\lenovo\AppData\Local\Temp\scoped_dir8576_368180562" data:,
+[1625727454.497][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1625727454.502][INFO]: [a0162557ebdb961e57968860220a0d60] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.124",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})",
+         "userDataDir": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\scoped_dir8576_368180562"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60417"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a0162557ebdb961e57968860220a0d60"
+}
+[1625727454.552][INFO]: [a0162557ebdb961e57968860220a0d60] COMMAND Navigate {
+   "url": "file:///C:/Users/lenovo/Desktop/Upload.html"
+}
+[1625727454.552][INFO]: Waiting for pending navigations...
+[1625727454.553][INFO]: Done waiting for pending navigations. Status: ok
+[1625727454.583][INFO]: Waiting for pending navigations...
+[1625727454.620][INFO]: Done waiting for pending navigations. Status: ok
+[1625727454.620][INFO]: [a0162557ebdb961e57968860220a0d60] RESPONSE Navigate
+[1625727454.636][INFO]: [a0162557ebdb961e57968860220a0d60] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='fileToUpload']"
+}
+[1625727454.636][INFO]: Waiting for pending navigations...
+[1625727454.639][INFO]: Done waiting for pending navigations. Status: ok
+[1625727454.658][INFO]: Waiting for pending navigations...
+[1625727454.658][INFO]: Done waiting for pending navigations. Status: ok
+[1625727454.658][INFO]: [a0162557ebdb961e57968860220a0d60] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "be595716-0fad-4069-bcf1-f969dec902ae"
+}
+[1625727454.680][INFO]: [a0162557ebdb961e57968860220a0d60] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "be595716-0fad-4069-bcf1-f969dec902ae",
+            "element-6066-11e4-a52e-4f735466cecf": "be595716-0fad-4069-bcf1-f969dec902ae"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      }, {
+         "button": 0,
+         "type": "pointerDown"
+      }, {
+         "button": 0,
+         "type": "pointerUp"
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1625727454.680][INFO]: Waiting for pending navigations...
+[1625727454.681][INFO]: Done waiting for pending navigations. Status: ok
+[1625727454.794][INFO]: Waiting for pending navigations...
+[1625727454.795][INFO]: Done waiting for pending navigations. Status: ok
+[1625727454.795][INFO]: [a0162557ebdb961e57968860220a0d60] RESPONSE PerformActions

@@ -1,0 +1,88 @@
+package TestCase;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import Base.BaseSettings;
+import Utilities.Utils;
+
+public class ActionsAndFrames extends BaseSettings{
+	
+	public static  WebDriver driver;
+	public static  WebDriverWait w;
+	public static WebElement wb;
+	public static Actions act;
+	
+
+	public static void main(String[] args) {
+
+		driver = ActionsAndFrames.RunBrowser("Chrome");
+		
+		//CReate the object of Utils class
+		Utils u = new Utils(driver);
+		
+		//Maximise the browser window
+		driver.manage().window().maximize();
+		
+		//Navigate to the Jquery dragable page website
+		driver.get("https://jqueryui.com/draggable/");
+		
+		//StepWise Screenshot after navigation to Jquery dragable page website
+		u.stepWiseScreenshot("Navigate JQuery Draggable Page");
+			
+		//Define the page load timeout
+		driver.manage().timeouts().pageLoadTimeout(20L, TimeUnit.SECONDS);
+			
+		//Implicit wait - Dynamic wait 
+		driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
+		
+		//Explicit Wait 
+		w = new WebDriverWait(driver, 20L);// TODO Auto-generated method stub
+		
+		//Explicit wait - for the text to be present
+		w.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//*[@id=\"content\"]/h1"), "Draggable"));
+
+		//Scroll until "Search" Element
+		//Scroll until the slider is visible in viewport of browser
+		Point p = driver.findElement(By.xpath("//*[@id=\"main\"]/form/label/span[2]/input")).getLocation();
+		int xCords = p.x;//939
+		System.out.println("X Coordinate of Search edit box : "+xCords);
+		int yCords = p.y;//389
+		System.out.println("Y Coordinate of Search edit box  : "+yCords);
+		String convertedString = Integer.toString(yCords);
+		JavascriptExecutor j = (JavascriptExecutor)driver;
+		j.executeScript("window.scrollTo(0, "+convertedString+");", "");
+				
+		
+		//Drag the element 
+		act  = new Actions(driver);
+		//Address of the element to be dragged in X and Y coordinates
+		wb = driver.findElement(By.xpath("//*[@id=\"draggable\"]"));
+		act.dragAndDropBy(wb, 50, 40);
+		act.build().perform();
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Running classes parallel in different threads .Parallel = classes can be utilized when classes are part of same test case-->
+<suite name="Rediffmail Suite" parallel="classes">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCase.SendingMailRediff"/>
+      <class name="TestCase.formRediffmail"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Rediffmail Suite -->

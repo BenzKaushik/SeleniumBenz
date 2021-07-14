@@ -1,0 +1,56 @@
+# This will take key values pairs
+# Keys should be unique
+# Value can be duplicated
+# Properties class will be used to read this properties file
+# Properties class is a class which implements the MAP interface
+
+#Forwhat_Locator_Element
+waitTextCreateARediffmailAccount_className_landingPage = f22
+verifyTextCreateARediffmailAccount_className_landingPage = f22
+assertTextCreateARediffmailAccount_xpath_landingPage = //*[@id='tblcrtac']/tbody/tr[1]/td
+assertTextFullName_xpath_fullNameEditBox = //*[@id='tblcrtac']/tbody/tr[3]/td[1]
+typeFullName_xpath_fullNameEditBox = //*[@id='tblcrtac']/tbody/tr[3]/td[3]/input
+assertTextChooseRediffmailID_xpath_fullNameEditBox = //*[@id='tblcrtac']/tbody/tr[7]/td[1]
+typeTextChooseRediffmailID_xpath_fullNameEditBox = //*[@id='tblcrtac']/tbody/tr[7]/td[3]/input[1]
+assertAttributeValueChooseRediffmailID_xpath_checkavailabilityButton = //*[@id='tblcrtac']/tbody/tr[7]/td[3]/input[2]
+clickCheckAvailabilityActions_xpath_checkavailabilityButton = //*[@id='tblcrtac']/tbody/tr[7]/td[3]/input[2]
+verifyTextOnCheckAvalibilityButton_xpath_CheckAvalibilityButton = //*[@id='check_availability']/font/b
+assertTextYippie_cssSelector_CheckAvalibilityButton = #check_availability > font > b
+assertTextPassword_xpath_PasswordEditBox  = //*[@id='tblcrtac']/tbody/tr[9]/td[1]
+typePassword_xpath_PasswordEditBox = //*[@id='tblcrtac']/tbody/tr[9]/td[3]/input
+assertTextRetypePassword_xpath_RetypePasswordEditBox = //*[@id='tblcrtac']/tbody/tr[11]/td[1]
+typeRetypePassword_xpath_RetypePasswordEditBox = //*[@id='tblcrtac']/tbody/tr[11]/td[3]/input
+assertTextAlternateEmailID_xpath_AlternateEmailIDCheckbox = //*[@id='altid_msg']/span
+isSelectedChecbox_xpath_AlternateEmailIDCheckbox = //*[@id='tblcrtac']/tbody/tr[15]/td[2]/table/tbody/tr/td[1]/input
+SelectedChecbox_xpath_AlternateEmailIDCheckbox = //*[@id='tblcrtac']/tbody/tr[15]/td[2]/table/tbody/tr/td[1]/input
+assertTextSecurityQuestion_xpath_SecurityQuestionDropDown = //*[@id='div_hintQS']/table/tbody/tr[2]/td[1]		
+optionSelectSecurityQuestion_xpath_SelectSecurityQuestionDropDown = //*[@id='div_hintQS']/table/tbody/tr[2]/td[3]/select
+assertTextEnterAnswer_xpath_EnterAnswerEditBox = //*[@id='div_hintQS']/table/tbody/tr[4]/td[1]
+typeEnterAnswer_xpath_EnterAnswerEditBox = //*[@id='div_hintQS']/table/tbody/tr[4]/td[3]/input
+assertTextMotherName_xpath_MotherNameEditBox = //*[@id='div_hintQS']/table/tbody/tr[6]/td[1]
+typeMotherName_xpath_MotherNameEditBox = //*[@id='div_hintQS']/table/tbody/tr[6]/td[3]/input
+assertTextMobileNumber_xpath_MobileNumberDropDown = //*[@id='mob_txt']
+isdDropDownClick_xpath_isdDropDown = //*[@id='div_mob']/table/tbody/tr/td[3]/div[2]
+isdDropDownOptionClick_xpath_isdDropDown = //*[@id='country_id']/ul/li[2]
+assertAttributeValueMobileNumber_xpath_MobileNumberEditBox = //*[@id='mobno']
+typeMobileNumber_xpath_MobileNumberEditBox = //*[@id='mobno']
+assertTextDateOfBirth_xpath_DateOfBirthDropDown = //*[@id='tblcrtac']/tbody/tr[22]/td[1]
+selectOptionDay_xpath_DayDropDown = //*[@id='tblcrtac']/tbody/tr[22]/td[3]/select[1]
+selectOptionMonth_xpath_MonthDropDown = //*[@id='tblcrtac']/tbody/tr[22]/td[3]/select[2]
+selectOptionYear_xpath_YearDropDown = //*[@id='tblcrtac']/tbody/tr[22]/td[3]/select[3]
+assertAttributeValue_xpath_FemaleRadioButton = //*[@id='tblcrtac']/tbody/tr[24]/td[3]/input[2]
+SelectedRadioButton_xpath_FemaleRadioButton = //*[@id='tblcrtac']/tbody/tr[24]/td[3]/input[2]
+assertAttributeValue_xpath_CountryDropDown = //*[@id='tblcrtac']/tbody/tr[26]/td[1]/span
+selectOptionCountry_xpath_CountryDropDown = //*[@id='country']
+assertText_xpath_CityDropDown = //*[@id='div_city']/table/tbody/tr[1]/td[1]
+selectOptionCity_xpath_CityDropDown = //*[@id='div_city']/table/tbody/tr[1]/td[3]/select
+		
+		
+		
+		
+		
+		
+		
+		
+		
+													

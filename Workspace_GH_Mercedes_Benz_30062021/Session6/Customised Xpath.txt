@@ -1,0 +1,74 @@
+Xpath is XML path. It is the path of the element in the DOM document.
+
+Xpath are of two types:
+1) Partial or relative xpath
+2) Absolute or Full xpath - it always start with HTML tag
+
+Customisation of XPATh is needed when the xpath given by using the inspect element in the browser opened by Selenium or by inspect element in the desktop version is not working. It gives NO SUCH ELEMENT EXCEPTION. FOr customisation , first create PARTIAL XPATh and if partial xpath is also giving NO SUCH ELEMENT exception, then create FULL XPATH
+
+Format of Partial or relative xpath:
+
+//*[@attribute present in HTML script = 'value of the attribute']
+
+// --> All parent or all child tags
+* --> Regular expression meaning any html tag
+@ --> regular expression defining a specific attribute
+/ --> immediate parent tag or immediate child tag
+
+<table border="0" cellspacing="1" cellpadding="3" bgcolor="#000000" align="center">
+	<tbody>
+		<tr>
+			<td bgcolor="#99aa99">
+				<table border="0" cellspacing="1" cellpadding="2" bgcolor="#000000" width="450">
+					<tbody>
+						<tr>	
+							<td class="table6"><!-- perl mysql php web host -->
+								<br>
+									<input type="text" size="25" value="Enter your name here!">
+								<br>
+									<input type="image" src="i/rainbow.gif" name="image" width="60" height="60" onclick="alert('The button image is disabled on this page.'); return false">
+								<br>
+									<div align="center"></div>
+								<br>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Customized Xpath for Google Edit box:
+
+Partial Xpath ://*[@attribute present in HTML script = 'value of the attribute']
+
+Note Compound class value are supported by xpath but not by className locating strategy
+1) //*[@class = 'gLFyf gsfi']
+2) //input[@class = 'gLFyf gsfi']
+3) //*[@name = 'q']
+4) //input[@name = 'q']
+5) //input[@title = 'Search']
+6) //div[@class = 'a4bIc']/input[1]
+7) //div[@jsname = 'gLFyf']/input[1]
+8) //div[@class='SDkEP']/div[2]/input[1]
+9)//div[@class = 'RNNXgb']/div[1]/div[2]/input[1]  or  //div[@class = 'RNNXgb']/div/div[2]/input[1] 
+10) //div[@class = 'A8SBwf']/div[1]/div[1]/div[2]/input[1]   or //div[@class = 'A8SBwf']/div[1]/div/div[2]/input[1]
+11) //div[@jsmodel='vWNDde']/div[1]/div[1]/div[1]/div[2]/input[1]
+12) //form[@role = 'search']/div[1]/div[1]/div[1]/div/div[2]/input[1]
+13) //div[@class = 'o3j99 ikrT4e om7nvf']/form[1]/div[1]/div[1]/div[1]/div/div[2]/input[1]
+14) //div[@class = 'L3eUgb']/div[3]/form[1]/div[1]/div[1]/div[1]/div/div[2]/input[1]
+15) //body[@jsmodel = 'TvHxbe']/div[2]/div[3]/form[1]/div[1]/div[1]/div[1]/div/div[2]/input[1] - Not working in script but ranorex showing the element and highlighting it
+
+Creating customised FULL or Absolute xpath
+/html/body[1]/div[2]/div[3]/form[1]/div[1]/div[1]/div[1]/div/div[2]/input[1]- Not working in script but ranorex showing the element and highlighting it
+
+Full xpath from Chrome
+/html/body/div[2]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input - Not Working
+
+Full xpath from Edge
+/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input - Working
+

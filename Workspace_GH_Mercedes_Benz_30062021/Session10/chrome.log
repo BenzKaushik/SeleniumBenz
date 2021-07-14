@@ -1,0 +1,597 @@
+[1625628528.399][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 18621
+[1625628528.399][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1625628529.209][INFO]: [4f7e1c8d03f45cf1b7c1c4213e84ef57] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-notifications", "--start-maximized", "ignore-certificate-errors", "user-data-dir=C:\\Users\\lenovo\\AppData\\Local\\Google\\Chrome\\User" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-notifications", "--start-maximized", "ignore-certificate-errors", "user-data-dir=C:\\Users\\lenovo\\AppData\\Local\\Google\\Chrome\\User" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1625628529.221][INFO]: Populating Preferences file: {
+   "account_id_migration_state": 2,
+   "account_tracker_service_last_update": "13270101365325127",
+   "alternate_error_pages": {
+      "backup": false
+   },
+   "autocomplete": {
+      "retention_policy_last_version": 91
+   },
+   "autofill": {
+      "credit_card_enabled": false,
+      "enabled": false,
+      "profile_enabled": false
+   },
+   "browser": {
+      "check_default_browser": false,
+      "window_placement": {
+         "bottom": 718,
+         "left": 10,
+         "maximized": true,
+         "right": 1060,
+         "top": 10,
+         "work_area_bottom": 728,
+         "work_area_left": 0,
+         "work_area_right": 1366,
+         "work_area_top": 0
+      }
+   },
+   "countryid_at_install": 21843,
+   "data_reduction": {
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "87683" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "87683" ],
+      "last_update_date": "13270069800000000",
+      "this_week_number": 2687,
+      "this_week_services_downstream_foreground_kb": {
+         "112189210": 2,
+         "35473769": 0,
+         "35565745": 2,
+         "41424546": 2,
+         "67052219": 0,
+         "78917933": 80
+      }
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "domain_diversity": {
+      "last_reporting_timestamp": "13270101365325227"
+   },
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "chrome_url_overrides": {
+
+      }
+   },
+   "gaia_cookie": {
+      "changed_time": 1625627765.588971,
+      "hash": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
+      "last_list_accounts_data": "[\"gaia.l.a.r\",[]]"
+   },
+   "gcm": {
+      "product_category_for_subtypes": "com.chrome.windows"
+   },
+   "google": {
+      "services": {
+         "signin_scoped_device_id": "ccaddcab-e415-4b7c-9e03-0267991d2ad8"
+      }
+   },
+   "http_original_content_length": "87683",
+   "http_received_content_length": "87683",
+   "intl": {
+      "selected_languages": "en-US,en"
+   },
+   "invalidation": {
+      "per_sender_topics_to_handler": {
+         "1013309121859": {
+
+         },
+         "8181035976": {
+
+         }
+      }
+   },
+   "language_model_counters": {
+      "en": 2
+   },
+   "media": {
+      "device_id_salt": "7FBA8AF3FA40FA08BD90E947491F9796",
+      "engagement": {
+         "schema_version": 4
+      }
+   },
+   "media_router": {
+      "receiver_id_hash_token": "RnlIq4O+czPnA23/YoaN/csqzx5haC+81+B3WRyPnFFeaTlK4PJVGCOfiTIuJTq9KVrhiu9ZGQ2HT27S6HBHUA=="
+   },
+   "ntp": {
+      "custom_background_local_to_device": false,
+      "num_personal_suggestions": 2
+   },
+   "plugins": {
+      "plugins_list": [  ]
+   },
+   "profile": {
+      "avatar_index": 26,
+      "content_settings": {
+         "enable_quiet_permission_ui_enabling_method": {
+            "notifications": 1
+         },
+         "exceptions": {
+            "accessibility_events": {
+
+            },
+            "app_banner": {
+
+            },
+            "ar": {
+
+            },
+            "auto_select_certificate": {
+
+            },
+            "automatic_downloads": {
+
+            },
+            "autoplay": {
+
+            },
+            "background_sync": {
+
+            },
+            "bluetooth_chooser_data": {
+
+            },
+            "bluetooth_guard": {
+
+            },
+            "bluetooth_scanning": {
+
+            },
+            "camera_pan_tilt_zoom": {
+
+            },
+            "client_hints": {
+
+            },
+            "clipboard": {
+
+            },
+            "cookies": {
+
+            },
+            "durable_storage": {
+
+            },
+            "file_handling": {
+
+            },
+            "file_system_last_picked_directory": {
+
+            },
+            "file_system_read_guard": {
+
+            },
+            "file_system_write_guard": {
+
+            },
+            "font_access": {
+
+            },
+            "geolocation": {
+
+            },
+            "hid_chooser_data": {
+
+            },
+            "hid_guard": {
+
+            },
+            "idle_detection": {
+
+            },
+            "images": {
+
+            },
+            "important_site_info": {
+
+            },
+            "insecure_private_network": {
+
+            },
+            "installed_web_app_metadata": {
+
+            },
+            "intent_picker_auto_display": {
+
+            },
+            "javascript": {
+
+            },
+            "legacy_cookie_access": {
+
+            },
+            "media_engagement": {
+               "https://www.pushengage.com:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13270101862292161",
+                  "model": 0,
+                  "setting": {
+                     "hasHighScore": false,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaPlaybacks": 0,
+                     "visits": 2
+                  }
+               }
+            },
+            "media_stream_camera": {
+
+            },
+            "media_stream_mic": {
+
+            },
+            "midi_sysex": {
+
+            },
+            "mixed_script": {
+
+            },
+            "nfc": {
+
+            },
+            "notifications": {
+
+            },
+            "password_protection": {
+
+            },
+            "payment_handler": {
+
+            },
+            "permission_autoblocking_data": {
+
+            },
+            "permission_autorevocation_data": {
+
+            },
+            "popups": {
+
+            },
+            "ppapi_broker": {
+
+            },
+            "protocol_handler": {
+
+            },
+            "safe_browsing_url_check_data": {
+
+            },
+            "sensors": {
+
+            },
+            "serial_chooser_data": {
+
+            },
+            "serial_guard": {
+
+            },
+            "site_engagement": {
+               "https://www.pushengage.com:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13270101853327308",
+                  "model": 0,
+                  "setting": {
+                     "lastEngagementTime": 1.3270101853327292e+16,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 4.5,
+                     "rawScore": 4.5
+                  }
+               }
+            },
+            "sound": {
+
+            },
+            "ssl_cert_decisions": {
+
+            },
+            "storage_access": {
+
+            },
+            "subresource_filter": {
+
+            },
+            "subresource_filter_data": {
+
+            },
+            "usb_chooser_data": {
+
+            },
+            "usb_guard": {
+
+            },
+            "vr": {
+
+            },
+            "window_placement": {
+
+            }
+         },
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         },
+         "pref_version": 1
+      },
+      "creation_time": "13270101365061364",
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "last_engagement_time": "13270101853327291",
+      "managed_user_id": "",
+      "name": "Person 1",
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false,
+      "event_timestamps": {
+
+      },
+      "metrics_last_log_time": "13270101365"
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "sessions": {
+      "event_log": [ {
+         "crashed": false,
+         "time": "13270101365210244",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13270101377731416",
+         "type": 2,
+         "window_count": 1
+      }, {
+         "crashed": false,
+         "time": "13270101852602197",
+         "type": 0
+      }, {
+         "tab_count": 2,
+         "time": "13270101862290570",
+         "type": 2,
+         "window_count": 1
+      } ]
+   },
+   "signin": {
+      "DiceMigrationComplete": true,
+      "allowed": true
+   },
+   "spellcheck": {
+      "dictionaries": [ "en-US" ],
+      "dictionary": "",
+      "use_spelling_service": false
+   },
+   "token_service": {
+      "dice_compatible": true
+   },
+   "translate": {
+      "enabled": false
+   },
+   "translate_site_blacklist_with_time": {
+
+   },
+   "web_apps": {
+      "did_migrate_default_chrome_apps": [  ],
+      "last_preinstall_synchronize_version": "91",
+      "system_web_app_failure_count": 0,
+      "system_web_app_last_attempted_language": "en-US",
+      "system_web_app_last_attempted_update": "91.0.4472.124",
+      "system_web_app_last_installed_language": "en-US",
+      "system_web_app_last_update": "91.0.4472.124"
+   }
+}
+[1625628529.230][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "browser": {
+      "shortcut_migration_version": "91.0.4472.124"
+   },
+   "data_use_measurement": {
+      "data_used": {
+         "services": {
+            "background": {
+
+            },
+            "foreground": {
+
+            }
+         },
+         "user": {
+            "background": {
+
+            },
+            "foreground": {
+
+            }
+         }
+      }
+   },
+   "hardware_acceleration_mode_previous": true,
+   "legacy": {
+      "profile": {
+         "name": {
+            "migrated": true
+         }
+      }
+   },
+   "os_crypt": {
+      "encrypted_key": "RFBBUEkBAAAA0Iyd3wEV0RGMegDAT8KX6wEAAADotyMyvVSxTYknUQeI98jkAAAAAAIAAAAAABBmAAAAAQAAIAAAAHoQa8Hv1MCuGPjvkJUrpcYJiYnyFCDDCgjVEbbXCxclAAAAAA6AAAAAAgAAIAAAAAxPLs9YhTPG+k922et+tiWY0xoDaQDZe/68gMoSpMTxMAAAAKOrzxltgQhEkhT/if4W+0hLrEBm4Z2WD6D9uMsFrwa+79x/5sp4TLHmnNK/DNIttkAAAAABPR4IAWJiP33+KJYZt7t3cs/qqAwluox0vLasrFx37UWWTo0OYjFtGIjKxiIzcPq7OfA87q7vbdbRDsuqUbaX"
+   },
+   "policy": {
+      "last_statistics_update": "13270101365154034"
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "active_time": 1625627765.309024,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+            "background_apps": false,
+            "gaia_given_name": "",
+            "gaia_id": "",
+            "gaia_name": "",
+            "hosted_domain": "",
+            "is_consented_primary_account": false,
+            "is_ephemeral": false,
+            "is_guest": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "managed_user_id": "",
+            "metrics_bucket_index": 1,
+            "name": "Person 1",
+            "user_name": ""
+         }
+      },
+      "last_active_profiles": [  ],
+      "metrics": {
+         "next_bucket_index": 2
+      },
+      "profile_counts_reported": "13270101365162301"
+   },
+   "profile_network_context_service": {
+      "http_cache_finch_experiment_groups": "None None None"
+   },
+   "shutdown": {
+      "num_processes": 5,
+      "num_processes_slow": 0,
+      "type": 1
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   },
+   "subresource_filter": {
+      "ruleset_version": {
+         "checksum": 0,
+         "content": "",
+         "format": 0
+      }
+   },
+   "tab_stats": {
+      "last_daily_sample": "13270101365314880",
+      "max_tabs_per_window": 2,
+      "total_tab_count_max": 2,
+      "window_count_max": 1
+   },
+   "ukm": {
+      "persisted_logs": [  ]
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1565316830"
+   },
+   "user_experience_metrics": {
+      "client_id2": "457fa734-4e3b-44a1-8a74-c36b0cfba320",
+      "client_id_timestamp": "1565333382",
+      "low_entropy_source3": 5731,
+      "machine_id": 7629309,
+      "pseudo_low_entropy_source": 4203,
+      "session_id": 1,
+      "stability": {
+         "browser_last_live_timestamp": "13270101862310609",
+         "child_process_crash_count": 0,
+         "crash_count": 0,
+         "exited_cleanly": true,
+         "extension_renderer_crash_count": 0,
+         "extension_renderer_failed_launch_count": 0,
+         "extension_renderer_launch_count": 0,
+         "gpu_crash_count": 0,
+         "incomplete_session_end_count": 0,
+         "launch_count": 2,
+         "page_load_count": 6,
+         "renderer_crash_count": 0,
+         "renderer_failed_launch_count": 0,
+         "renderer_hang_count": 0,
+         "renderer_launch_count": 18,
+         "session_end_completed": true,
+         "stats_buildtime": "1624480158",
+         "stats_version": "91.0.4472.124-64",
+         "system_crash_count": 0
+      }
+   },
+   "was": {
+      "restarted": false
+   }
+}
+[1625628529.232][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\lenovo\AppData\Local\Google\Chrome\User"
+[1625628529.808][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1625628529.882][INFO]: [4f7e1c8d03f45cf1b7c1c4213e84ef57] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.124",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})",
+         "userDataDir": "C:\\Users\\lenovo\\AppData\\Local\\Google\\Chrome\\User"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54202"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "4f7e1c8d03f45cf1b7c1c4213e84ef57"
+}
+[1625628530.192][INFO]: [4f7e1c8d03f45cf1b7c1c4213e84ef57] COMMAND Navigate {
+   "url": "http://pushengage.com/demo"
+}
+[1625628530.197][INFO]: Waiting for pending navigations...
+[1625628530.270][INFO]: Done waiting for pending navigations. Status: ok
+[1625628530.415][INFO]: Waiting for pending navigations...
+[1625628531.579][INFO]: Done waiting for pending navigations. Status: ok
+[1625628531.579][INFO]: [4f7e1c8d03f45cf1b7c1c4213e84ef57] RESPONSE Navigate

@@ -1,0 +1,66 @@
+package TestCase;
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+
+import Base.BaseSettings;
+import Utilities.Utils;
+
+public class JavascriptCodes extends BaseSettings{
+
+	public static  WebDriver driver;
+	public static  WebDriverWait w;
+	public static WebElement wb;
+	public static Actions act;
+	public static Point p;
+	public static JavascriptExecutor j;
+	public static Pattern p1;
+	public static Screen scr;
+	
+	
+	public static void main(String[] args) throws InterruptedException, IOException, FindFailed {
+	    
+		
+		driver = JavascriptCodes.RunBrowser("Edge");
+		
+		Utils u = new Utils(driver);
+		
+		j = (JavascriptExecutor)driver;
+		
+		//To navigate to a different page using Javascript
+		j.executeScript("window.location = 'https://register.rediff.com/register/register.php?FormName=user_details");
+		
+		//To get the URL of a webpage
+		String url=  j.executeScript("return document.URL;").toString();
+		System.out.println(url);
+		//Define the page load timeout
+		driver.manage().timeouts().pageLoadTimeout(20L, TimeUnit.SECONDS);
+					
+		//Implicit wait - Dynamic wait 
+		driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
+				
+		//Explicit Wait 
+		w = new WebDriverWait(driver, 20L);
+		
+		//Type on full name
+		
+		
+	}
+	
+	
+
+}

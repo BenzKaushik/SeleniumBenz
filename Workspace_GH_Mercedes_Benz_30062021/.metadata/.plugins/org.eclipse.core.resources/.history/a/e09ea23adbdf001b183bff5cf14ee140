@@ -1,0 +1,54 @@
+package Listener;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+public class UsingNavigateMethod {
+
+	public static void main(String[] args) {
+		//Open the firefox
+		/*System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir")+"\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver(); */
+							
+		//Open the Chrome
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		//Registering the WebDriver EventListener interface in this class using EventFiringWebDriver
+		
+		EventFiringWebDriver edriver = new EventFiringWebDriver(driver);
+		MyListener m = new MyListener();
+		edriver.register(m);
+		
+				
+		//Open the IE
+		/*System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\IEDriverServer.exe");
+		WebDriver driver = new InternetExplorerDriver();*/
+								
+		//Maximize the window
+		edriver.manage().window().maximize();
+										
+		//Navigate to URl
+		edriver.navigate().to("http://www.bbc.com/");
+		
+		//Click on "China says US 'hyped-up' drone incident" link
+		edriver.findElement(By.xpath("//*[@id='page']/section[3]/div/div/section[1]/div/ul/li[1]/div/div[2]/h3/a")).click();
+		
+		//Title of the link
+		String title = edriver.getTitle();
+		System.out.println(title);
+		
+		System.out.println("a");
+		//Using the back button to go back to Www.bbc.com
+		edriver.navigate().back();
+		System.out.println("b");
+		
+		//Us the forward button to open "China says US 'hyped-up' drone incident" link again
+		edriver.navigate().forward();
+
+	}
+
+}

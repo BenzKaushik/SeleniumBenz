@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Priority Suite" duration-ms="63" started-at="2021-07-09T13:03:09 IST" finished-at="2021-07-09T13:03:09 IST">
+    <groups>
+    </groups>
+    <test name="Example Test Case" duration-ms="63" started-at="2021-07-09T13:03:09 IST" finished-at="2021-07-09T13:03:09 IST">
+      <class name="annotations.ExampleTestAnnotation">
+        <test-method status="PASS" signature="LoginRediffmail()[pri:1, instance:annotations.ExampleTestAnnotation@1e6d1014]" name="LoginRediffmail" duration-ms="8" started-at="2021-07-09T13:03:09 IST" finished-at="2021-07-09T13:03:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRediffmail -->
+        <test-method status="PASS" signature="SendMail()[pri:2, instance:annotations.ExampleTestAnnotation@1e6d1014]" name="SendMail" duration-ms="2" started-at="2021-07-09T13:03:09 IST" finished-at="2021-07-09T13:03:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMail -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:annotations.ExampleTestAnnotation@1e6d1014]" name="Logout" duration-ms="1" started-at="2021-07-09T13:03:09 IST" finished-at="2021-07-09T13:03:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- annotations.ExampleTestAnnotation -->
+    </test> <!-- Example Test Case -->
+  </suite> <!-- Priority Suite -->
+</testng-results>

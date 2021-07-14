@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Provider Suite - Rediffmail]">
+  <test thread-count="5" name="Rediffmail Compose Email Test Case(failed)">
+    <classes>
+      <class name="TestCase.SendingMailRediff">
+        <methods>
+          <include name="SendingEmailRediff" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCase.SendingMailRediff -->
+    </classes>
+  </test> <!-- Rediffmail Compose Email Test Case(failed) -->
+</suite> <!-- Failed suite [Data Provider Suite - Rediffmail] -->

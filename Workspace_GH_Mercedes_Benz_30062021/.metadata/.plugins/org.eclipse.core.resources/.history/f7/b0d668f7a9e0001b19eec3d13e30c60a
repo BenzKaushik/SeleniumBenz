@@ -1,0 +1,29 @@
+package Group;
+
+import org.testng.annotations.Test;
+
+/*When we need to do grouping, ensure to run the class files from TESTNG SUITE level
+by creating the textng.xml file.*/
+
+//Usage of regular expression 
+public class Example2 {
+	
+	@Test(groups = {"windows.SmokeTest"})
+	public void testMethod4(){
+		
+		
+	}
+	
+	@Test(groups = {"linux.SmokeTest"})
+	public void testMethod5(){
+		
+		
+	}
+	
+	@Test(groups = {"windows.functionaltest"})
+	public void testMethod6(){
+		
+		
+	}
+
+}

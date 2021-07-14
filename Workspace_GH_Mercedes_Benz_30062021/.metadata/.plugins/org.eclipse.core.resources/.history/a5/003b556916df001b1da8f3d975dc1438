@@ -1,0 +1,2 @@
+//Want to get text from third column of the heading of the tab;le
+//*[@id='leftcontainer']/table/thead/tr/th[3]

@@ -1,0 +1,41 @@
+//Want to get text from third column of the heading of the table
+#leftcontainer > table > thead > tr > th:nth-child(3)
+
+//Want to get text from fourth column of the heading of the table
+#leftcontainer > table > thead > tr > th:nth-child(4)
+
+//Want to get text from first column of the heading 
+#leftcontainer > table > thead > tr > th:nth-child(1)
+#leftcontainer > table > thead > tr > th
+
+//Want to get all data from all column of the heading  - manipulate the Css Selector
+#leftcontainer > table > thead > tr > th - find out how many elements have the same CssSelector
+#leftcontainer > table > thead > tr > th  - this will give the data present in first column of the heading
+#leftcontainer > table > thead > tr > th:nth-child(1) - CssSelector of first column of the heading
+#leftcontainer > table > thead > tr  - find out how many elements have the same CssSelector
+#leftcontainer > table > thead > tr - from Inspect element
+
+//Want to get text from first column of the first row of the body of the table
+#leftcontainer > table > tbody > tr:nth-child(1) > td:nth-child(1)
+
+//Want to get text from fourth column of the of the company L&T
+#leftcontainer > table > tbody > tr:nth-child(387) > td:nth-child(4)
+
+//Want to get text from all column of the first row of the body of the table
+#leftcontainer > table > tbody > tr:nth-child(1) > td:nth-child(1)  - first column first row of body
+#leftcontainer > table > tbody > tr:nth-child(1) > td  - first column first row of body
+#leftcontainer > table > tbody > tr:nth-child(1) > td - find how many elements have same Css Selector
+#leftcontainer > table > tbody > tr:nth-child(1)- find how many elements have same Css Selector
+
+
+
+
+//Want to get text from all rows of the first column of the body of the table
+#leftcontainer > table > tbody > tr:nth-child(1) > td:nth-child(1)>a - first column first row 
+#leftcontainer > table > tbody > tr:nth-child(407) > td:nth-child(1)>a -first column last row
+
+#leftcontainer > table > tbody > tr > td:nth-child(1) > a  -  find how many have same CssSelector 
+
+
+//Want to get text from all rows of the last column of the body of the table
+#leftcontainer > table > tbody > tr > td:nth-child(5) -  find how many have same CssSelector 

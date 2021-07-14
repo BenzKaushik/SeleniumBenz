@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Provider Suite - Rediffmail" duration-ms="52644" started-at="2021-07-12T12:03:55 IST" finished-at="2021-07-12T12:04:47 IST">
+    <groups>
+    </groups>
+    <test name="Rediffmail Form Test Case" duration-ms="17937" started-at="2021-07-12T12:03:55 IST" finished-at="2021-07-12T12:04:13 IST">
+      <class name="TestCase.formRediffmail">
+        <test-method status="PASS" signature="FillingFormRediffmail(java.util.Hashtable)[pri:0, instance:TestCase.formRediffmail@1d29cf23]" name="FillingFormRediffmail" duration-ms="9321" started-at="2021-07-12T12:03:55 IST" data-provider="FillForm" finished-at="2021-07-12T12:04:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PNumber=12345, MName=Sukla, RID=kaushikmukherjee2412, FName=Kaushik Mukherjee, Rpwd=test@1234, Pwd=test@1234, SQues=Music, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillingFormRediffmail -->
+        <test-method status="PASS" signature="FillingFormRediffmail(java.util.Hashtable)[pri:0, instance:TestCase.formRediffmail@1d29cf23]" name="FillingFormRediffmail" duration-ms="8550" started-at="2021-07-12T12:04:04 IST" data-provider="FillForm" finished-at="2021-07-12T12:04:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PNumber=45678, MName=Jenny, RID=SamMendes2412, FName=Sam Mendes, Rpwd=test@5678, Pwd=test@5678, SQues=Reading, Browser=Edge}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillingFormRediffmail -->
+      </class> <!-- TestCase.formRediffmail -->
+    </test> <!-- Rediffmail Form Test Case -->
+    <test name="Rediffmail Compose Email Test Case" duration-ms="34673" started-at="2021-07-12T12:04:13 IST" finished-at="2021-07-12T12:04:47 IST">
+      <class name="TestCase.SendingMailRediff">
+        <test-method status="PASS" signature="SendingEmailRediff(java.util.Hashtable)[pri:0, instance:TestCase.SendingMailRediff@32d2fa64]" name="SendingEmailRediff" duration-ms="15482" started-at="2021-07-12T12:04:13 IST" data-provider="SendingEmailRediffData" finished-at="2021-07-12T12:04:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CField=Test Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=kaushik.aryaan@gmail.com, SField=Test Mail, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendingEmailRediff -->
+        <test-method status="PASS" signature="SendingEmailRediff(java.util.Hashtable)[pri:0, instance:TestCase.SendingMailRediff@32d2fa64]" name="SendingEmailRediff" duration-ms="19187" started-at="2021-07-12T12:04:28 IST" data-provider="SendingEmailRediffData" finished-at="2021-07-12T12:04:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CField=Development Mail Sent, Pwd=test@1234, UName=selenium.testmay2017, TField=arundhoti.mukherjee@gmail.com, SField=Development Mail, Browser=Edge}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendingEmailRediff -->
+      </class> <!-- TestCase.SendingMailRediff -->
+    </test> <!-- Rediffmail Compose Email Test Case -->
+  </suite> <!-- Data Provider Suite - Rediffmail -->
+</testng-results>

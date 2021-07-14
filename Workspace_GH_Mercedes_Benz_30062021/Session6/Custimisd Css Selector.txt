@@ -1,0 +1,104 @@
+Css Selector is also the position of the element in the DOm document
+
+Css Selector are of two types:
+1) Partial or relative Css Selector
+2) Absolute or Full Css Selector - it always start with HTML tag
+
+Customisation of Css Selector is needed when the Css Selector given by using the inspect element in the browser
+opened by Selenium or by inspect element in the desktop version is not working. It gives NO SUCH ELEMENT 
+EXCEPTION. For customisation , first create PARTIAL Css Selector and if partial xpath is also giving 
+NO SUCH ELEMENT exception, then create FULL Css Selector
+
+Format of Partial or relative xpath:
+
+//*[@attribute present in HTML script = 'value of the attribute']
+
+// --> All parent or all child tags
+* --> Regular expression meaning any html tag
+@ --> regular expression defining a specific attribute
+/ --> immediate parent tag or immediate child tag
+
+Format of Partial or relative CssSelector:
+
+*[attribute present in HTML script = 'value of the attribute']
+* --> Regular expression meaning any html tag
+Single Space or > (grater than sign) --> immediate parent tag or immediate child tag
+. --> sign used to represent CLASS attribute
+# --> sign used to represent ID attribute
+
+
+
+<table border="0" cellspacing="1" cellpadding="3" bgcolor="#000000" align="center">
+	<tbody>
+		<tr>
+			<td bgcolor="#99aa99">
+				<table border="0" cellspacing="1" cellpadding="2" bgcolor="#000000" width="450">
+					<tbody>
+						<tr>	
+							<td class="table6"><!-- perl mysql php web host -->
+								<br>
+									<input type="text" size="25" value="Enter your name here!">
+								<br>
+									<input type="image" src="i/rainbow.gif" name="image" width="60" height="60" onclick="alert('The button image is disabled on this page.'); return false">
+								<br>
+									<div align="center"></div>
+								<br>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+---------------------------------------------------------------------------------------
+Customized Css Selector for Google Search button:
+
+*[attribute present in HTML script = 'value of the attribute']
+. --> sign used to represent CLASS attribute
+# --> sign used to represent ID attribute
+Single Space or > (grater than sign) --> immediate parent tag or immediate child tag
+
+
+1) *[name = 'btnK'] 
+2) input[name = 'btnK'] 
+3) *[class = 'gNO89b']
+4) input[class = 'gNO89b']  OR input.gNO89b
+5) input[value = 'Google Search']
+6) center input:nth-child(1)  OR center>input:nth-child(1)
+7) center input.gNO89b  OR center>input.gNO89b  OR  center input[class = 'gNO89b']  OR center>input[class = 'gNO89b']
+Note: Css Selector supports compound class value
+8) div.FPdoLc lJ9FBc>center:nth-child(1)>input:nth-child(1) -  With the  format defined , it shows NO SUCH ELEMENT EXCEPTION
+OR 
+div.FPdoLc lJ9FBc center:nth-child(1) input:nth-child(1)-  With the  format defined , it shows NO SUCH ELEMENT EXCEPTION
+
+9) div[class = 'FPdoLc lJ9FBc']>center:nth-child(1)>input:nth-child(1) OR
+div[class = 'FPdoLc lJ9FBc'] center:nth-child(1) input:nth-child(1) - compound class value with this below format will work
+
+10)div.FPdoLc>center:nth-child(1)>input:nth-child(1)
+11) div.lJ9FBc>center:nth-child(1)>input:nth-child(1)
+12) div[class = 'A8SBwf']>div:nth-child(4)>center:nth-child(1)>input:nth-child(1)
+OR
+div[class = 'A8SBwf'] div:nth-child(4) center:nth-child(1) input:nth-child(1)
+OR
+div.A8SBwf>div:nth-child(4)>center:nth-child(1)>input:nth-child(1)
+OR
+div.A8SBwf div:nth-child(4) center:nth-child(1) input:nth-child(1)
+13) form[role = 'search']>div:nth-child(1)>div:nth-child(1)>div:nth-child(4)>center:nth-child(1)>input:nth-child(1)
+14) div[class = 'o3j99 ikrT4e om7nvf']>form:nth-child(3)>div:nth-child(1)>div:nth-child(1)>div:nth-child(4)>center:nth-child(1)>input:nth-child(1) - Not Working
+div.o3j99>form:nth-child(3)>div:nth-child(1)>div:nth-child(1)>div:nth-child(4)>center:nth-child(1)>input:nth-child(1)
+15) div.L3eUgb>div:nth-child(3)>form:nth-child(3)>div:nth-child(1)>div:nth-child(1)>div:nth-child(4)>center:nth-child(1)>input:nth-child(1)
+16) Custmised absolute or full css selector  -created from Browser opened by Selenium
+html>body:nth-child(2)>div:nth-child(2)>div:nth-child(3)>form:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(3)>div:nth-child(3)>div:nth-child(7)>center:nth-child(2)>input:nth-child(1)
+
+17) driver.findElement(By.cssSelector("div.L3eUgb>div:nth-child(3)>form:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(3)>div:nth-child(3)>div:nth-child(7)>center:nth-child(2)>input:nth-child(1)")).submit();
+Created from inspect element used in browser opened by Selenium	 
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+Xpath  - Depart From
+
+//*[@id='BE_flight_form_wrapper']/div[1]/div[2]/ul/li[1]/ul/li[1]/div/div/ul/div/div/div/li[1]
+//*[@id='BE_flight_form_wrapper']/div[1]/div[2]/ul/li[1]/ul/li[1]/div/div/ul/div/div/div/li[2]
+
+String part1 = "//*[@id='BE_flight_form_wrapper']/div[1]/div[2]/ul/li[1]/ul/li[1]/div/div/ul/div/div/div/li[";
+String part2 = "]";
+int x = 1
+
+TExt XPATH:
+//*[@id="BE_flight_form_wrapper"]/div[1]/div[2]/ul/li[1]/ul/li[3]/div/div/ul/div/div/div/li[3]/div[1]/p[1] - Bangalore
+//*[@id="BE_flight_form_wrapper"]/div[1]/div[2]/ul/li[1]/ul/li[3]/div/div/ul/div/div/div/li[2]/div[1]/p[1] - Mumbai
+//*[@id="BE_flight_form_wrapper"]/div[1]/div[2]/ul/li[1]/ul/li[3]/div/div/ul/div/div/div/li[1]/div[1]/p[1] - New Delhi
+
+String part1 = "//*[@id='BE_flight_form_wrapper']/div[1]/div[2]/ul/li[1]/ul/li[3]/div/div/ul/div/div/div/li[";
+String part2 = "]/div[1]/p[1]";
+int x = 1
+
+Xpath at Runtime 
+//*[@id="BE_flight_form_wrapper"]/div[1]/div[2]/ul/li[1]/ul/li[1]/div/div/ul/div/div/div/li[1]/div[1]/p[1]
+//*[@id="BE_flight_form_wrapper"]/div[1]/div[2]/ul/li[1]/ul/li[1]/div/div/ul/div/div/div/li[3]/div[1]/p[1]
+
+String part1 = "//*[@id='BE_flight_form_wrapper']/div[1]/div[2]/ul/li[1]/ul/li[1]/div/div/ul/div/div/div/li[";
+String part2 = "]/div[1]/p[1]";
+int x = 1
+
+Xpath at runtime - Going To
+
+//*[@id='BE_flight_arrival_city'] - Edit box
